@@ -4,7 +4,7 @@
     <joint name="camera_joint" type="fixed">
         <parent link="chassis"/>
         <child link="camera_link"/>
-        <origin xyz="0.305 0 0.08" rpy="0 0 0"/>
+        <origin xyz="0.276 0 0.181" rpy="0 0 0"/>
     </joint>
 
     <link name="camera_link">
@@ -12,7 +12,14 @@
             <geometry>
                 <box size="0.010 0.03 0.03"/>
             </geometry>
-            <material name="red"/>
+            <material name="black"/>
+        </visual>
+        <visual>
+            <origin xyz="0 0 -0.05"/>
+            <geometry>
+                <cylinder radius="0.002" length="0.1"/>
+            </geometry>
+            <material name="black"/>
         </visual>
     </link>
 
@@ -28,7 +35,7 @@
 
 
     <gazebo reference="camera_link">
-        <material>Gazebo/Red</material>
+        <material>Gazebo/Black</material>
 
         <sensor name="camera" type="camera">
             <pose> 0 0 0 0 0 0 </pose>
