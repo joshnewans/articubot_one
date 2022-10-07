@@ -11,7 +11,7 @@
                 <param name="device">/dev/ttyUSB0</param>
                 <param name="baud_rate">57600</param>
                 <param name="timeout">1000</param>
-                <param name="enc_counts_per_rev">3450</param>
+                <param name="enc_counts_per_rev">3436</param>
             </hardware>
             <joint name="left_wheel_joint">
                 <command_interface name="velocity">
