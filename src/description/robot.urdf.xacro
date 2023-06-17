@@ -13,7 +13,7 @@
         <xacro:include filename="gazebo_control.xacro" />
     </xacro:unless>
     <xacro:include filename="lidar.xacro" />
-    <xacro:include filename="camera.xacro" />
+    <!-- <xacro:include filename="camera.xacro" /> -->
     <!-- <xacro:include filename="depth_camera.xacro" /> -->
 
     <xacro:include filename="face.xacro" />

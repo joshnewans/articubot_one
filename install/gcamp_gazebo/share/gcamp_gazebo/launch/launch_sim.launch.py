@@ -6,6 +6,7 @@ from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch_ros.substitutions import FindPackageShare
 
 from launch_ros.actions import Node
 
@@ -18,6 +19,22 @@ def generate_launch_description():
     # !!! MAKE SURE YOU SET THE PACKAGE NAME CORRECTLY !!!
 
     package_name='gcamp_gazebo' #<--- CHANGE ME
+    world_file_name = "gcamp_world.world"
+
+    pkg_path = os.path.join(get_package_share_directory(package_name))
+    world_path = os.path.join(pkg_path, "worlds", world_file_name)
+    pkg_gazebo_ros = FindPackageShare(package='gazebo_ros').find('gazebo_ros')
+
+    # Start Gazebo server
+    start_gazebo_server_cmd = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(os.path.join(pkg_gazebo_ros, 'launch', 'gzserver.launch.py')),
+        launch_arguments={'world': world_path}.items()
+    )
+
+    # Start Gazebo client    
+    start_gazebo_client_cmd = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py'))
+    )
 
     rsp = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
@@ -39,14 +56,14 @@ def generate_launch_description():
             remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
         )
 
-    gazebo_params_file = os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')
+    # gazebo_params_file = os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')
 
     # Include the Gazebo launch file, provided by the gazebo_ros package
-    gazebo = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource([os.path.join(
-                    get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
-                    launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file}.items()
-             )
+    # gazebo = IncludeLaunchDescription(
+    #             PythonLaunchDescriptionSource([os.path.join(
+    #                 get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
+    #                 launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file}.items()
+    #          )
 
     # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.
     spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
@@ -91,7 +108,9 @@ def generate_launch_description():
         rsp,
         joystick,
         twist_mux,
-        gazebo,
+        # gazebo,
+        start_gazebo_server_cmd,
+        start_gazebo_client_cmd,
         spawn_entity,
         diff_drive_spawner,
         joint_broad_spawner
