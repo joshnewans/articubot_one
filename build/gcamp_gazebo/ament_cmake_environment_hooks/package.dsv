@@ -1,0 +1,4 @@
+source;share/gcamp_gazebo/local_setup.bash
+source;share/gcamp_gazebo/local_setup.dsv
+source;share/gcamp_gazebo/local_setup.sh
+source;share/gcamp_gazebo/local_setup.zsh
