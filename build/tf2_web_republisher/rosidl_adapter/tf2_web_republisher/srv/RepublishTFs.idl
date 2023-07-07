@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tf2_web_republisher/srv/RepublishTFs.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+
+module tf2_web_republisher {
+  module srv {
+    @verbatim (language="comment", text=
+      "# Notify the tf2_web_republisher that republishing of certain" "\n"
+      "# TFs is desired")
+    struct RepublishTFs_Request {
+      sequence<string> source_frames;
+
+      string target_frame;
+
+      float angular_thres;
+
+      float trans_thres;
+
+      float rate;
+
+      @verbatim (language="comment", text=
+        " tf2_web_republisher will stop publishing the topic if it has zero subscribers for this amount of time")
+      builtin_interfaces::msg::Duration timeout;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct RepublishTFs_Response {
+      @verbatim (language="comment", text=
+        " a topic of type geometry_msgs/TransformStamped[] that publishes the requested transforms")
+      string topic_name;
+    };
+  };
+};

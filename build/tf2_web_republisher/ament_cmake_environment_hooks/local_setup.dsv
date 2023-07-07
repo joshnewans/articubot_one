@@ -1,0 +1,4 @@
+source;share/tf2_web_republisher/environment/ament_prefix_path.sh
+source;share/tf2_web_republisher/environment/library_path.sh
+source;share/tf2_web_republisher/environment/path.sh
+source;share/tf2_web_republisher/environment/pythonpath.sh

@@ -1,0 +1,8 @@
+source;share/mpu6050driver/hook/cmake_prefix_path.ps1
+source;share/mpu6050driver/hook/cmake_prefix_path.dsv
+source;share/mpu6050driver/hook/cmake_prefix_path.sh
+source;share/mpu6050driver/local_setup.bash
+source;share/mpu6050driver/local_setup.dsv
+source;share/mpu6050driver/local_setup.ps1
+source;share/mpu6050driver/local_setup.sh
+source;share/mpu6050driver/local_setup.zsh

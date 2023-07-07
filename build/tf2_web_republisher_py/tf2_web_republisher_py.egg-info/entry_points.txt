@@ -1,0 +1,3 @@
+[console_scripts]
+tf2_web_republisher = tf2_web_republisher_py.tf2_web_republisher_py:main
+

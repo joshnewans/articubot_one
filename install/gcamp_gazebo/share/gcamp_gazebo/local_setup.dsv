@@ -1,2 +1,1 @@
-source;share/gcamp_gazebo/environment/ament_prefix_path.sh
-source;share/gcamp_gazebo/environment/path.sh
+/home/winter24/gcamp_ros2_ws/build/gcamp_gazebo/ament_cmake_environment_hooks/local_setup.dsv

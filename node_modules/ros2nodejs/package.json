@@ -1,0 +1,45 @@
+{
+  "name": "ros2nodejs",
+  "version": "0.1.0",
+  "description": "ROS 2 Library for Node.js",
+  "main": "./lib/index.js",
+  "keywords": [
+    "ros",
+    "ros2",
+    "robot",
+    "roslibjs"
+  ],
+  "homepage": "https://github.com/lorenzinigiovanni/ros2nodejs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lorenzinigiovanni/ros2nodejs.git"
+  },
+  "bugs": "https://github.com/lorenzinigiovanni/ros2nodejs/issues",
+  "author": "Giovanni Lorenzini <giovanni@lorenzinigiovanni.com> (https://www.lorenzinigiovanni.com/)",
+  "contributors": [
+    "Diego Planchenstainer <d.planchenstainer@studenti.unitn.it>"
+  ],
+  "license": "MIT",
+  "types": "./lib/index.d.ts",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/ws": "^8.5.3",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "eslint": "^8.27.0",
+    "eslint-plugin-import": "^2.26.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "ws": "^8.11.0"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "examples": "ts-node examples/examples.ts",
+    "lint": "eslint . --ext .ts"
+  },
+  "files": [
+    "/lib"
+  ]
+}

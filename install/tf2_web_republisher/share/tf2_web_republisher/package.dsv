@@ -1,0 +1,14 @@
+source;share/tf2_web_republisher/hook/cmake_prefix_path.ps1
+source;share/tf2_web_republisher/hook/cmake_prefix_path.dsv
+source;share/tf2_web_republisher/hook/cmake_prefix_path.sh
+source;share/tf2_web_republisher/hook/ld_library_path_lib.ps1
+source;share/tf2_web_republisher/hook/ld_library_path_lib.dsv
+source;share/tf2_web_republisher/hook/ld_library_path_lib.sh
+source;share/tf2_web_republisher/hook/pythonpath.ps1
+source;share/tf2_web_republisher/hook/pythonpath.dsv
+source;share/tf2_web_republisher/hook/pythonpath.sh
+source;share/tf2_web_republisher/local_setup.bash
+source;share/tf2_web_republisher/local_setup.dsv
+source;share/tf2_web_republisher/local_setup.ps1
+source;share/tf2_web_republisher/local_setup.sh
+source;share/tf2_web_republisher/local_setup.zsh

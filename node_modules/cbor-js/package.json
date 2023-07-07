@@ -1,0 +1,37 @@
+{
+  "name": "cbor-js",
+  "version": "0.1.0",
+  "description": "The Concise Binary Object Representation (CBOR) data format (RFC7049) implemented in pure JavaScript.",
+  "keywords": [
+    "cbor"
+  ],
+  "homepage": "https://github.com/paroga/cbor-js",
+  "bugs": "https://github.com/paroga/cbor-js/issues",
+  "license": "MIT",
+  "author": "Patrick Gansterer <paroga@paroga.com> (http://paroga.com/)",
+  "main": "cbor.js",
+  "files": [
+    "cbor.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/paroga/cbor-js.git"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "ci": "grunt ci"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-bower-install-simple": "~1.1.4",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-compress": "~0.13.0",
+    "grunt-contrib-connect": "~0.11.2",
+    "grunt-contrib-jshint": "~0.11.2",
+    "grunt-contrib-qunit": "~0.7.0",
+    "grunt-contrib-uglify": "~0.9.1",
+    "grunt-coveralls": "~1.0.0",
+    "grunt-qunit-istanbul": "~0.4.7",
+    "grunt-saucelabs": "~8.6.1"
+  }
+}

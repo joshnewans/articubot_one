@@ -1,0 +1,17 @@
+{
+"name": "numeric",
+"version": "1.2.6",
+"author": "Sébastien Loisel",
+"description": "Numerical analysis in javascript",
+"keywords": [
+"numeric",
+"analysis",
+"math"
+],
+"homepage": "http://numericjs.com",
+"main": "numeric-1.2.6.js",
+"repository": {
+"type": "git",
+"url": "https://github.com/sloisel/numeric.git"
+}
+}

@@ -1,0 +1,4 @@
+source;share/tf2_web_republisher/local_setup.bash
+source;share/tf2_web_republisher/local_setup.dsv
+source;share/tf2_web_republisher/local_setup.sh
+source;share/tf2_web_republisher/local_setup.zsh

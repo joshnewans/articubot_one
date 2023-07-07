@@ -1,0 +1,25 @@
+{
+  "name": "16",
+  "version": "0.0.2",
+  "description": "A scientific Computing Library like R and Matlab",
+  "main": "jslab.js",
+  "dependencies": {
+    "numeric": "^1.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jslab_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "non"
+  },
+  "keywords": [
+    "R",
+    "Matlab",
+    "Matrix",
+    "Statistics"
+  ],
+  "author": "oo",
+  "license": "ISC"
+}

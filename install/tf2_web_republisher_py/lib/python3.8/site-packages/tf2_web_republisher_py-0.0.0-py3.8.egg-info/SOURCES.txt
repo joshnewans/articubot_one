@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/PKG-INFO
+../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/SOURCES.txt
+../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/dependency_links.txt
+../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/entry_points.txt
+../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/requires.txt
+../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/top_level.txt
+../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/zip-safe
+resource/tf2_web_republisher_py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+tf2_web_republisher_py/__init__.py
+tf2_web_republisher_py/tf2_web_republisher_py.py
+tf2_web_republisher_py/tf_pair.py

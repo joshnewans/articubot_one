@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from tf2_web_republisher/action/TFSubscription.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/TransformStamped.idl"
+
+module tf2_web_republisher {
+  module action {
+    @verbatim (language="comment", text=
+      " goal")
+    struct TFSubscription_Goal {
+      sequence<string> source_frames;
+
+      string target_frame;
+
+      float angular_thres;
+
+      float trans_thres;
+
+      float rate;
+    };
+    struct TFSubscription_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct TFSubscription_Feedback {
+      @verbatim (language="comment", text=
+        " feedback")
+      sequence<geometry_msgs::msg::TransformStamped> transforms;
+    };
+  };
+};

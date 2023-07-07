@@ -1,0 +1,6 @@
+Invoking command in '/home/winter24/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/winter24/gcamp_ros2_ws/src -DCMAKE_INSTALL_PREFIX=/home/winter24/gcamp_ros2_ws/install/gcamp_gazebo
+Invoked command in '/home/winter24/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/winter24/gcamp_ros2_ws/src -DCMAKE_INSTALL_PREFIX=/home/winter24/gcamp_ros2_ws/install/gcamp_gazebo
+Invoking command in '/home/winter24/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/gcamp_gazebo -- -j16 -l16
+Invoked command in '/home/winter24/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/gcamp_gazebo -- -j16 -l16
+Invoking command in '/home/winter24/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/gcamp_gazebo
+Invoked command in '/home/winter24/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/gcamp_gazebo

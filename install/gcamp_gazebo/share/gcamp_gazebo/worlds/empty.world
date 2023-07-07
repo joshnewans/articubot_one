@@ -1,13 +1,1 @@
-<?xml version="1.0" ?>
-<sdf version="1.5">
-  <world name="default">
-    <!-- A global light source -->
-    <include>
-      <uri>model://sun</uri>
-    </include>
-    <!-- A ground plane -->
-    <include>
-      <uri>model://ground_plane</uri>
-    </include>
-  </world>
-</sdf>
+/home/winter24/gcamp_ros2_ws/src/worlds/empty.world

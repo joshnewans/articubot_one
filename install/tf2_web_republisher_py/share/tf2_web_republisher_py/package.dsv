@@ -1,0 +1,6 @@
+source;share/tf2_web_republisher_py/hook/pythonpath.ps1
+source;share/tf2_web_republisher_py/hook/pythonpath.dsv
+source;share/tf2_web_republisher_py/hook/pythonpath.sh
+source;share/tf2_web_republisher_py/hook/ament_prefix_path.ps1
+source;share/tf2_web_republisher_py/hook/ament_prefix_path.dsv
+source;share/tf2_web_republisher_py/hook/ament_prefix_path.sh

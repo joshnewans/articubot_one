@@ -1,0 +1,51 @@
+jslab -- A Scientific Computing Library like R and Matlab
+
+## Introduction
+
+```
+npm install jslab
+```
+
+## Use jslab
+
+file : jslab_test.js
+
+```javascript
+var J = require("jslab");
+var C = console;
+
+var A = [[1,2,3],[3,2,2],[4,3,5]];
+C.log("A=\n", J.str(A));
+
+var iA = J.inv(A);
+C.log("iA=\n", J.str(iA));
+
+var AiA = J.dot(A, iA);
+C.log("A*iA=\n", J.str(AiA));
+```
+
+## run
+
+```
+$ node jslab_test
+A=
+ [[          1,          2,          3],
+ [          3,          2,          2],
+ [          4,          3,          5]]
+iA=
+ [[    -0.5714,     0.1429,     0.2857],
+ [          1,          1,         -1],
+ [    -0.1429,    -0.7143,     0.5714]]
+A*iA=
+ [[          1,          0,          0],
+ [ -1.665e-16,          1,  -2.22e-16],
+ [ -4.441e-16,  4.441e-16,          1]]
+```
+
+## Information
+
+You may mail to ccckmit@gmail.com to contact the author.
+
+Enjoy it !
+
+

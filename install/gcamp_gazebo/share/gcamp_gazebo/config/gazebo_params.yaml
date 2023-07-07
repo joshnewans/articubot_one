@@ -1,3 +1,1 @@
-gazebo:
-  ros__parameters:
-    publish_rate: 400.0
+/home/winter24/gcamp_ros2_ws/src/config/gazebo_params.yaml
