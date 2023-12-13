@@ -1,0 +1,49 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2
+[100%] Built target robot_pose_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/lib/robot_pose_publisher_ros2/robot_pose_publisher
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/launch/__pycache__/robot_pose_publisher_launch.cpython-38.pyc
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/launch/robot_pose_publisher_launch.py
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/ament_index/resource_index/package_run_dependencies/robot_pose_publisher_ros2
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/ament_index/resource_index/parent_prefix_path/robot_pose_publisher_ros2
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/path.sh
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/path.dsv
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.bash
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.sh
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.zsh
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.dsv
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/package.dsv
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/ament_index/resource_index/packages/robot_pose_publisher_ros2
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/cmake/robot_pose_publisher_ros2Config.cmake
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/cmake/robot_pose_publisher_ros2Config-version.cmake
+-- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/package.xml

@@ -1,0 +1,17 @@
+[1.377s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/tf2_web_republisher_py': PYTHONPATH=/home/winter24/gcamp_ros2_ws/build/tf2_web_republisher_py/prefix_override:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/winter24/gcamp_ros2_ws/build/tf2_web_republisher_py/build --no-deps install_data
+[1.648s] running develop
+[1.717s] running egg_info
+[1.718s] writing tf2_web_republisher_py.egg-info/PKG-INFO
+[1.718s] writing dependency_links to tf2_web_republisher_py.egg-info/dependency_links.txt
+[1.718s] writing entry points to tf2_web_republisher_py.egg-info/entry_points.txt
+[1.719s] writing requirements to tf2_web_republisher_py.egg-info/requires.txt
+[1.719s] writing top-level names to tf2_web_republisher_py.egg-info/top_level.txt
+[1.739s] reading manifest file 'tf2_web_republisher_py.egg-info/SOURCES.txt'
+[1.741s] writing manifest file 'tf2_web_republisher_py.egg-info/SOURCES.txt'
+[1.763s] running build_ext
+[1.763s] Creating /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py/lib/python3.8/site-packages/tf2-web-republisher-py.egg-link (link to .)
+[1.763s] Installing tf2_web_republisher script to /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py/lib/tf2_web_republisher_py
+[1.763s] 
+[1.763s] Installed /home/winter24/gcamp_ros2_ws/build/tf2_web_republisher_py
+[1.763s] running install_data
+[2.004s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/tf2_web_republisher_py' returned '0': PYTHONPATH=/home/winter24/gcamp_ros2_ws/build/tf2_web_republisher_py/prefix_override:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/winter24/gcamp_ros2_ws/build/tf2_web_republisher_py/build --no-deps install_data

@@ -7,5 +7,6 @@
 #include "tf2_web_republisher/srv/detail/republish_t_fs__struct.hpp"
 #include "tf2_web_republisher/srv/detail/republish_t_fs__builder.hpp"
 #include "tf2_web_republisher/srv/detail/republish_t_fs__traits.hpp"
+#include "tf2_web_republisher/srv/detail/republish_t_fs__type_support.hpp"
 
 #endif  // TF2_WEB_REPUBLISHER__SRV__REPUBLISH_T_FS_HPP_

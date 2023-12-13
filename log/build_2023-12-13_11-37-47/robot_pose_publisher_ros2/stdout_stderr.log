@@ -1,0 +1,22 @@
+[100%] Built target robot_pose_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/lib/robot_pose_publisher_ros2/robot_pose_publisher
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/launch
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/launch/robot_pose_publisher_launch.py
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/launch/__pycache__
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/launch/__pycache__/robot_pose_publisher_launch.cpython-38.pyc
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/ament_index/resource_index/package_run_dependencies/robot_pose_publisher_ros2
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/ament_index/resource_index/parent_prefix_path/robot_pose_publisher_ros2
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/path.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/path.dsv
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.bash
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.zsh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/package.dsv
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/ament_index/resource_index/packages/robot_pose_publisher_ros2
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/cmake/robot_pose_publisher_ros2Config.cmake
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/cmake/robot_pose_publisher_ros2Config-version.cmake
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/package.xml

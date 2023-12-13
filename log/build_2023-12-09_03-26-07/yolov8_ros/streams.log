@@ -1,0 +1,49 @@
+[1.856s] Invoking command in '/home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_ros': PYTHONPATH=/home/winter24/gcamp_ros2_ws/build/yolov8_ros/prefix_override:/home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov8_ros build --build-base /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build install --record /home/winter24/gcamp_ros2_ws/build/yolov8_ros/install.log --single-version-externally-managed
+[1.986s] running egg_info
+[1.986s] creating ../../build/yolov8_ros/yolov8_ros.egg-info
+[1.987s] writing ../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+[1.987s] writing dependency_links to ../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+[1.987s] writing entry points to ../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+[1.987s] writing requirements to ../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+[1.987s] writing top-level names to ../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+[1.988s] writing manifest file '../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[2.028s] reading manifest file '../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[2.028s] writing manifest file '../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[2.029s] running build
+[2.029s] running build_py
+[2.030s] creating /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build
+[2.031s] creating /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib
+[2.031s] creating /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+[2.032s] copying yolov8_ros/yolov8_node.py -> /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+[2.032s] copying yolov8_ros/debug_node.py -> /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+[2.032s] copying yolov8_ros/detect_3d_node.py -> /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+[2.033s] copying yolov8_ros/tracking_node.py -> /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+[2.033s] copying yolov8_ros/__init__.py -> /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+[2.033s] running install
+[2.033s] running install_lib
+[2.033s] creating /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros
+[2.034s] copying /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros/yolov8_node.py -> /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros
+[2.034s] copying /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros/debug_node.py -> /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros
+[2.034s] copying /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros/detect_3d_node.py -> /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros
+[2.034s] copying /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros/tracking_node.py -> /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros
+[2.034s] copying /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros/__init__.py -> /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros
+[2.034s] byte-compiling /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_node.py to yolov8_node.cpython-38.pyc
+[2.034s] byte-compiling /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/debug_node.py to debug_node.cpython-38.pyc
+[2.036s] byte-compiling /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/detect_3d_node.py to detect_3d_node.cpython-38.pyc
+[2.038s] byte-compiling /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/tracking_node.py to tracking_node.cpython-38.pyc
+[2.039s] byte-compiling /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/__init__.py to __init__.cpython-38.pyc
+[2.039s] running install_data
+[2.040s] creating /home/winter24/gcamp_ros2_ws/install/yolov8_ros/share/ament_index
+[2.040s] creating /home/winter24/gcamp_ros2_ws/install/yolov8_ros/share/ament_index/resource_index
+[2.041s] creating /home/winter24/gcamp_ros2_ws/install/yolov8_ros/share/ament_index/resource_index/packages
+[2.041s] copying resource/yolov8_ros -> /home/winter24/gcamp_ros2_ws/install/yolov8_ros/share/ament_index/resource_index/packages
+[2.041s] copying package.xml -> /home/winter24/gcamp_ros2_ws/install/yolov8_ros/share/yolov8_ros
+[2.041s] running install_egg_info
+[2.041s] Copying ../../build/yolov8_ros/yolov8_ros.egg-info to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros-0.0.0-py3.8.egg-info
+[2.042s] running install_scripts
+[2.061s] Installing debug_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+[2.062s] Installing detect_3d_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+[2.062s] Installing tracking_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+[2.062s] Installing yolov8_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+[2.062s] writing list of installed files to '/home/winter24/gcamp_ros2_ws/build/yolov8_ros/install.log'
+[2.118s] Invoked command in '/home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_ros' returned '0': PYTHONPATH=/home/winter24/gcamp_ros2_ws/build/yolov8_ros/prefix_override:/home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov8_ros build --build-base /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build install --record /home/winter24/gcamp_ros2_ws/build/yolov8_ros/install.log --single-version-externally-managed

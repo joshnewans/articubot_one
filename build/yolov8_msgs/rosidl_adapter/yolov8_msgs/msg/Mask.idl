@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yolov8_msgs/msg/Mask.msg
+// generated code does not contain a copyright notice
+
+#include "yolov8_msgs/msg/Point2D.idl"
+
+module yolov8_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " segmentation mask for one instance")
+    struct Mask {
+      @verbatim (language="comment", text=
+        " size of the original image")
+      int32 height;
+
+      int32 width;
+
+      @verbatim (language="comment", text=
+        " mask data represeted by the points of the border of the mask")
+      sequence<yolov8_msgs::msg::Point2D> data;
+    };
+  };
+};

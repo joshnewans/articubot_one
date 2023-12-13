@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>openslam_gmapping</name>
+  <version>0.1.2</version>
+  <description>ROS-ified version of gmapping SLAM. Forked from https://openslam.informatik.uni-freiburg.de/data/svn/gmapping/trunk/</description>
+  <maintainer email="vincent.rabaud@gmail.com">Vincent Rabaud</maintainer>
+  <license>CreativeCommons-by-nc-sa-2.0</license>
+
+  <url type="website">http://openslam.org/gmapping</url>
+  <url type="repository">https://github.com/ros-perception/openslam_gmapping</url>
+  <url type="bugtracker">https://github.com/ros-perception/openslam_gmapping/issues</url>
+
+  <author>Giorgio Grisetti</author>
+  <author>Cyrill Stachniss</author>
+  <author>Wolfram Burgard</author>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>

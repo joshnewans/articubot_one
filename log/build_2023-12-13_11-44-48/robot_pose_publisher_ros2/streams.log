@@ -1,0 +1,55 @@
+[0.728s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake /home/winter24/gcamp_ros2_ws/robot_pose_publisher_ros2 -DCMAKE_INSTALL_PREFIX=/home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2
+[1.005s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.005s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.005s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.005s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.005s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.005s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.012s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.013s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.013s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.013s]   the cmake_policy command to set the policy and suppress this warning.
+[1.013s] 
+[1.013s] Call Stack (most recent call first):
+[1.013s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.013s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.013s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.013s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.014s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.014s]   CMakeLists.txt:13 (find_package)
+[1.016s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.016s] [0m
+[1.032s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.073s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.074s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.190s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.216s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.517s] -- Configuring done (0.8s)
+[1.530s] -- Generating done (0.0s)
+[1.532s] -- Build files have been written to: /home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2
+[1.560s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake /home/winter24/gcamp_ros2_ws/robot_pose_publisher_ros2 -DCMAKE_INSTALL_PREFIX=/home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2
+[1.563s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2 -- -j16 -l16
+[1.696s] [100%] Built target robot_pose_publisher
+[1.821s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2 -- -j16 -l16
+[1.867s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2
+[1.907s] -- Install configuration: ""
+[1.908s] -- Execute custom install script
+[1.909s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/lib/robot_pose_publisher_ros2/robot_pose_publisher
+[1.909s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/launch/__pycache__/robot_pose_publisher_launch.cpython-38.pyc
+[1.910s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/launch/robot_pose_publisher_launch.py
+[1.910s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/ament_index/resource_index/package_run_dependencies/robot_pose_publisher_ros2
+[1.910s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/ament_index/resource_index/parent_prefix_path/robot_pose_publisher_ros2
+[1.911s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/ament_prefix_path.sh
+[1.911s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/ament_prefix_path.dsv
+[1.911s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/path.sh
+[1.911s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/path.dsv
+[1.911s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.bash
+[1.912s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.sh
+[1.912s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.zsh
+[1.913s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.dsv
+[1.913s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/package.dsv
+[1.913s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/ament_index/resource_index/packages/robot_pose_publisher_ros2
+[1.914s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/cmake/robot_pose_publisher_ros2Config.cmake
+[1.914s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/cmake/robot_pose_publisher_ros2Config-version.cmake
+[1.914s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/package.xml
+[2.022s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2

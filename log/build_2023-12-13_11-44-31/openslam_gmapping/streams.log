@@ -1,0 +1,90 @@
+[0.882s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake /home/winter24/gcamp_ros2_ws/slam_gmapping/openslam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/winter24/gcamp_ros2_ws/install/openslam_gmapping
+[1.522s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.523s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.523s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.525s] -- Configuring done (0.2s)
+[1.525s] -- Generating done (0.0s)
+[1.526s] -- Build files have been written to: /home/winter24/gcamp_ros2_ws/build/openslam_gmapping
+[1.527s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.527s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.527s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.527s]   the cmake_policy command to set the policy and suppress this warning.
+[1.528s] 
+[1.528s] Call Stack (most recent call first):
+[1.528s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.528s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.529s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.530s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.531s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.531s]   CMakeLists.txt:19 (find_package)
+[1.533s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.533s] [0m
+[1.551s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake /home/winter24/gcamp_ros2_ws/slam_gmapping/openslam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/winter24/gcamp_ros2_ws/install/openslam_gmapping
+[1.552s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/openslam_gmapping -- -j16 -l16
+[1.572s] [ 13%] Built target sensor_base
+[1.573s] [ 27%] Built target utils
+[1.584s] [ 40%] Built target sensor_range
+[1.584s] [ 54%] Built target sensor_odometry
+[1.596s] [ 77%] Built target scanmatcher
+[1.607s] [100%] Built target gridfastslam
+[1.615s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/openslam_gmapping -- -j16 -l16
+[1.705s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/openslam_gmapping
+[1.744s] -- Install configuration: ""
+[1.745s] -- Execute custom install script
+[1.745s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libgridfastslam.a
+[1.749s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libscanmatcher.a
+[1.752s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libsensor_base.a
+[1.755s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[1.758s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[1.761s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[1.761s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[1.762s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libsensor_odometry.a
+[1.765s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libsensor_range.a
+[1.768s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libutils.a
+[1.771s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[1.771s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[1.772s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[1.772s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[1.773s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[1.776s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[1.779s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[1.782s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/grid/map.h
+[1.785s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[1.788s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[1.791s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[1.794s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/log/configuration.h
+[1.797s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[1.800s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[1.803s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[1.806s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[1.809s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[1.812s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[1.814s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[1.816s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[1.819s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[1.822s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[1.825s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[1.828s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[1.831s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[1.834s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[1.837s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[1.840s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/point.h
+[1.842s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/stat.h
+[1.845s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[1.848s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[1.851s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[1.855s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[1.855s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[1.857s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[1.860s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[1.863s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[1.866s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[1.869s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[1.872s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[1.875s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[1.877s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[1.882s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.882s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[1.884s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[1.887s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[1.896s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/openslam_gmapping

@@ -1,0 +1,358 @@
+[0.717s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake /home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/winter24/gcamp_ros2_ws/install/yolov8_msgs
+[0.759s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.761s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.762s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.762s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.762s]   the cmake_policy command to set the policy and suppress this warning.
+[0.762s] 
+[0.762s] Call Stack (most recent call first):
+[0.762s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.762s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.762s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.762s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.763s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.763s]   CMakeLists.txt:5 (find_package)
+[0.763s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.763s] [0m
+[0.795s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.795s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.025s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.036s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.040s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.044s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.169s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.190s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.214s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.244s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[1.245s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.245s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.245s]   the cmake_policy command to set the policy and suppress this warning.
+[1.245s] 
+[1.245s] Call Stack (most recent call first):
+[1.245s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.245s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[1.245s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.245s] [0m
+[1.269s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.504s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.738s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.823s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.827s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.827s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.827s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.828s]   the cmake_policy command to set the policy and suppress this warning.
+[1.828s] 
+[1.828s] Call Stack (most recent call first):
+[1.829s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.829s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.829s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[1.829s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.830s] [0m
+[1.844s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.845s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.846s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):
+[1.846s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.846s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.847s]   the cmake_policy command to set the policy and suppress this warning.
+[1.847s] 
+[1.847s] Call Stack (most recent call first):
+[1.848s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.848s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.848s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.848s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[1.848s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.848s] [0m
+[1.864s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):
+[1.864s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.864s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.864s]   the cmake_policy command to set the policy and suppress this warning.
+[1.864s] 
+[1.864s] Call Stack (most recent call first):
+[1.865s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.865s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.865s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.865s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[1.865s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.865s] [0m
+[1.867s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.867s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.867s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.919s] -- Configuring done (1.2s)
+[2.000s] -- Generating done (0.1s)
+[2.003s] -- Build files have been written to: /home/winter24/gcamp_ros2_ws/build/yolov8_msgs
+[2.042s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake /home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/winter24/gcamp_ros2_ws/install/yolov8_msgs
+[2.046s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/yolov8_msgs -- -j16 -l16
+[2.096s] [  0%] Built target yolov8_msgs__cpp
+[2.106s] [ 12%] Built target yolov8_msgs__rosidl_generator_c
+[2.120s] [ 24%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp
+[2.122s] [ 36%] Built target yolov8_msgs__rosidl_typesupport_cpp
+[2.122s] [ 48%] Built target yolov8_msgs__rosidl_typesupport_c
+[2.123s] [ 49%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.125s] [ 61%] Built target yolov8_msgs__rosidl_typesupport_introspection_c
+[2.199s] [ 71%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp
+[2.219s] [ 72%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.279s] [ 83%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c
+[2.285s] [ 83%] Built target yolov8_msgs
+[2.292s] [ 84%] Built target yolov8_msgs__py
+[2.311s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_msgs/libyolov8_msgs__python.so[0m
+[2.376s] [ 95%] Built target yolov8_msgs__python
+[2.397s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.397s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.431s] [ 97%] Built target yolov8_msgs__rosidl_typesupport_c__pyext
+[2.444s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.498s] [ 99%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.502s] [100%] Built target yolov8_msgs__rosidl_typesupport_introspection_c__pyext
+[2.597s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/yolov8_msgs -- -j16 -l16
+[2.966s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/yolov8_msgs
+[3.166s] -- Install configuration: ""
+[3.166s] -- Execute custom install script
+[3.167s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs
+[3.167s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/bounding_box2_d.h
+[3.167s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/bounding_box3_d.h
+[3.167s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__functions.h
+[3.167s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__struct.h
+[3.167s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__type_support.h
+[3.167s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__functions.h
+[3.167s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__struct.h
+[3.168s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__type_support.h
+[3.168s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__functions.h
+[3.168s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__struct.h
+[3.168s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__type_support.h
+[3.168s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__functions.h
+[3.168s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__struct.h
+[3.168s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__type_support.h
+[3.168s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__functions.h
+[3.168s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__struct.h
+[3.169s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__type_support.h
+[3.169s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__functions.h
+[3.169s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__struct.h
+[3.169s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__type_support.h
+[3.169s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__functions.h
+[3.169s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__struct.h
+[3.169s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__type_support.h
+[3.170s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__functions.h
+[3.170s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__struct.h
+[3.170s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__type_support.h
+[3.170s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__functions.h
+[3.170s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__struct.h
+[3.170s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__type_support.h
+[3.170s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__functions.h
+[3.170s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__struct.h
+[3.171s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__type_support.h
+[3.171s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__functions.h
+[3.171s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__struct.h
+[3.171s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__type_support.h
+[3.171s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__functions.h
+[3.171s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__struct.h
+[3.171s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__type_support.h
+[3.171s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detection.h
+[3.171s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detection_array.h
+[3.172s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point2_d.h
+[3.172s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point2_d_array.h
+[3.172s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point3_d.h
+[3.172s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point3_d_array.h
+[3.172s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/mask.h
+[3.172s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/point2_d.h
+[3.172s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/pose2_d.h
+[3.172s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.172s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/vector2.h
+[3.172s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh
+[3.173s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv
+[3.173s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_c.h
+[3.173s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[3.173s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[3.173s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h
+[3.173s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_c.h
+[3.173s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_c.h
+[3.173s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_c.h
+[3.173s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_c.h
+[3.173s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_c.h
+[3.174s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+[3.174s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[3.174s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_c.h
+[3.174s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.176s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so
+[3.176s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.177s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.178s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[3.179s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.182s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.185s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.190s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.191s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.193s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_cpp.hpp
+[3.196s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.200s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.203s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_cpp.hpp
+[3.204s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.207s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.210s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h
+[3.213s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[3.216s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[3.219s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_c.h
+[3.221s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h
+[3.223s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_c.h
+[3.225s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_c.h
+[3.228s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_c.h
+[3.231s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__rosidl_typesupport_introspection_c.h
+[3.234s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+[3.237s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[3.239s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_introspection_c.h
+[3.242s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.246s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/bounding_box2_d.hpp
+[3.248s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/bounding_box3_d.hpp
+[3.251s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__builder.hpp
+[3.255s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__struct.hpp
+[3.258s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__traits.hpp
+[3.260s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__type_support.hpp
+[3.263s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__builder.hpp
+[3.266s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__struct.hpp
+[3.268s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__traits.hpp
+[3.272s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__type_support.hpp
+[3.274s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__builder.hpp
+[3.277s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__struct.hpp
+[3.279s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__traits.hpp
+[3.282s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__type_support.hpp
+[3.285s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__builder.hpp
+[3.287s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__struct.hpp
+[3.290s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__traits.hpp
+[3.292s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__type_support.hpp
+[3.295s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__builder.hpp
+[3.298s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__struct.hpp
+[3.301s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__traits.hpp
+[3.303s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__type_support.hpp
+[3.307s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__builder.hpp
+[3.309s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__struct.hpp
+[3.312s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__traits.hpp
+[3.314s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__type_support.hpp
+[3.317s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__builder.hpp
+[3.320s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__struct.hpp
+[3.322s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__traits.hpp
+[3.325s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__type_support.hpp
+[3.327s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__builder.hpp
+[3.331s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__struct.hpp
+[3.332s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__traits.hpp
+[3.337s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__type_support.hpp
+[3.338s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__builder.hpp
+[3.340s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__struct.hpp
+[3.344s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__traits.hpp
+[3.350s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__type_support.hpp
+[3.353s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__builder.hpp
+[3.355s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__struct.hpp
+[3.360s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__traits.hpp
+[3.363s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__type_support.hpp
+[3.367s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__builder.hpp
+[3.372s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__struct.hpp
+[3.374s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__traits.hpp
+[3.378s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__type_support.hpp
+[3.382s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__builder.hpp
+[3.384s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__struct.hpp
+[3.388s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__traits.hpp
+[3.390s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__type_support.hpp
+[3.393s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detection.hpp
+[3.395s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detection_array.hpp
+[3.397s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point2_d.hpp
+[3.400s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point2_d_array.hpp
+[3.409s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point3_d.hpp
+[3.410s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point3_d_array.hpp
+[3.416s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/mask.hpp
+[3.416s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/point2_d.hpp
+[3.417s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/pose2_d.hpp
+[3.417s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.417s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/vector2.hpp
+[3.420s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.422s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[3.425s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[3.427s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp
+[3.430s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.433s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[3.435s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_cpp.hpp
+[3.439s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_cpp.hpp
+[3.444s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__rosidl_typesupport_introspection_cpp.hpp
+[3.445s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.447s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.451s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_introspection_cpp.hpp
+[3.452s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh
+[3.455s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv
+[3.459s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/__init__.py
+[3.462s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/__init__.py
+[3.463s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_bounding_box2_d.py
+[3.467s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_bounding_box3_d.py
+[3.469s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_detection.py
+[3.472s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_detection_array.py
+[3.473s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_key_point2_d.py
+[3.476s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_key_point2_d_array.py
+[3.480s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_key_point3_d.py
+[3.483s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_key_point3_d_array.py
+[3.483s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_mask.py
+[3.487s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_point2_d.py
+[3.489s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_pose2_d.py
+[3.491s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_vector2.py
+[3.494s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.498s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.500s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.503s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__python.so
+[3.508s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Point2D.idl
+[3.512s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Vector2.idl
+[3.514s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Pose2D.idl
+[3.517s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox2D.idl
+[3.520s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox3D.idl
+[3.524s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Mask.idl
+[3.526s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2D.idl
+[3.529s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2DArray.idl
+[3.532s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3D.idl
+[3.535s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3DArray.idl
+[3.539s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Detection.idl
+[3.542s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionArray.idl
+[3.544s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Point2D.msg
+[3.547s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Vector2.msg
+[3.551s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Pose2D.msg
+[3.551s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox2D.msg
+[3.555s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox3D.msg
+[3.558s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Mask.msg
+[3.559s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2D.msg
+[3.563s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2DArray.msg
+[3.564s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3D.msg
+[3.567s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3DArray.msg
+[3.570s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Detection.msg
+[3.572s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionArray.msg
+[3.575s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs
+[3.579s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs
+[3.581s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh
+[3.583s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv
+[3.588s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh
+[3.590s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv
+[3.593s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash
+[3.596s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh
+[3.601s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh
+[3.602s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv
+[3.603s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv
+[3.606s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs
+[3.608s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake
+[3.611s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.613s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.616s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.618s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.621s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.624s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.627s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake
+[3.630s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake
+[3.633s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.xml
+[3.636s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so
+[3.636s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so
+[3.637s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so
+[3.637s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so
+[3.637s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so
+[3.669s] Compiling '/home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/__init__.py'...
+[3.675s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_generator_cExport.cmake
+[3.676s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.677s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.677s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.677s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake
+[3.678s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.678s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_generator_cppExport.cmake
+[3.679s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.679s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.679s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake
+[3.679s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.779s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/yolov8_msgs

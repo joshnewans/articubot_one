@@ -1,0 +1,21 @@
+[1.775s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/yolov8_ros': PYTHONPATH=/home/winter24/gcamp_ros2_ws/build/yolov8_ros/prefix_override:/home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build --no-deps install_data
+[1.955s] running develop
+[2.100s] running egg_info
+[2.100s] writing yolov8_ros.egg-info/PKG-INFO
+[2.100s] writing dependency_links to yolov8_ros.egg-info/dependency_links.txt
+[2.100s] writing entry points to yolov8_ros.egg-info/entry_points.txt
+[2.101s] writing requirements to yolov8_ros.egg-info/requires.txt
+[2.101s] writing top-level names to yolov8_ros.egg-info/top_level.txt
+[2.123s] reading manifest file 'yolov8_ros.egg-info/SOURCES.txt'
+[2.123s] writing manifest file 'yolov8_ros.egg-info/SOURCES.txt'
+[2.148s] running build_ext
+[2.149s] Creating /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/site.py
+[2.149s] Creating /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8-ros.egg-link (link to .)
+[2.150s] Installing debug_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+[2.150s] Installing detect_3d_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+[2.151s] Installing tracking_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+[2.151s] Installing yolov8_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+[2.151s] 
+[2.151s] Installed /home/winter24/gcamp_ros2_ws/build/yolov8_ros
+[2.151s] running install_data
+[2.443s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/yolov8_ros' returned '0': PYTHONPATH=/home/winter24/gcamp_ros2_ws/build/yolov8_ros/prefix_override:/home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build --no-deps install_data

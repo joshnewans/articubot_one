@@ -1,0 +1,4 @@
+source;share/slam_gmapping/local_setup.bash
+source;share/slam_gmapping/local_setup.dsv
+source;share/slam_gmapping/local_setup.sh
+source;share/slam_gmapping/local_setup.zsh

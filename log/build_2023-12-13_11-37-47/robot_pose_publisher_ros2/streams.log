@@ -1,0 +1,26 @@
+[0.712s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2 -- -j16 -l16
+[0.936s] [100%] Built target robot_pose_publisher
+[0.945s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2 -- -j16 -l16
+[1.021s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2
+[1.062s] -- Install configuration: ""
+[1.062s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/lib/robot_pose_publisher_ros2/robot_pose_publisher
+[1.063s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/launch
+[1.063s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/launch/robot_pose_publisher_launch.py
+[1.063s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/launch/__pycache__
+[1.063s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/launch/__pycache__/robot_pose_publisher_launch.cpython-38.pyc
+[1.063s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/ament_index/resource_index/package_run_dependencies/robot_pose_publisher_ros2
+[1.063s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/ament_index/resource_index/parent_prefix_path/robot_pose_publisher_ros2
+[1.063s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/ament_prefix_path.sh
+[1.063s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/ament_prefix_path.dsv
+[1.063s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/path.sh
+[1.064s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/path.dsv
+[1.064s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.bash
+[1.064s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.sh
+[1.064s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.zsh
+[1.064s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.dsv
+[1.064s] -- Installing: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/package.dsv
+[1.064s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/ament_index/resource_index/packages/robot_pose_publisher_ros2
+[1.064s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/cmake/robot_pose_publisher_ros2Config.cmake
+[1.064s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/cmake/robot_pose_publisher_ros2Config-version.cmake
+[1.064s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/package.xml
+[1.432s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/robot_pose_publisher_ros2

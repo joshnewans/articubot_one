@@ -1,0 +1,4 @@
+source;share/robot_pose_publisher_ros2/local_setup.bash
+source;share/robot_pose_publisher_ros2/local_setup.dsv
+source;share/robot_pose_publisher_ros2/local_setup.sh
+source;share/robot_pose_publisher_ros2/local_setup.zsh

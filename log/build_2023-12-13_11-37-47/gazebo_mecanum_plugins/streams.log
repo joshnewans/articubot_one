@@ -1,0 +1,29 @@
+[0.926s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins -- -j16 -l16
+[1.157s] [100%] Built target gazebo_mecanum_drive
+[1.157s] [100%] Built target gazebo_mecanum_pid_drive
+[1.163s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins -- -j16 -l16
+[1.232s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins
+[1.273s] -- Install configuration: ""
+[1.273s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/ament_index/resource_index/package_run_dependencies/gazebo_mecanum_plugins
+[1.273s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/ament_index/resource_index/parent_prefix_path/gazebo_mecanum_plugins
+[1.273s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/environment/ament_prefix_path.sh
+[1.274s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/environment/ament_prefix_path.dsv
+[1.274s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/environment/path.sh
+[1.274s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/environment/path.dsv
+[1.274s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/local_setup.bash
+[1.275s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/local_setup.sh
+[1.275s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/local_setup.zsh
+[1.275s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/local_setup.dsv
+[1.275s] -- Installing: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/package.dsv
+[1.275s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/ament_index/resource_index/packages/gazebo_mecanum_plugins
+[1.275s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/cmake/gazebo_mecanum_pluginsConfig.cmake
+[1.275s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/cmake/gazebo_mecanum_pluginsConfig-version.cmake
+[1.275s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/package.xml
+[1.275s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/include
+[1.275s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/include/gazebo_mecanum_plugins
+[1.275s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/include/gazebo_mecanum_plugins/gazebo_mecanum_drive_private.h
+[1.275s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/include/gazebo_mecanum_plugins/gazebo_mecanum_drive.h
+[1.275s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/lib/libgazebo_mecanum_drive.so
+[1.277s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/lib/libgazebo_mecanum_pid_drive.so
+[1.277s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/
+[1.430s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins

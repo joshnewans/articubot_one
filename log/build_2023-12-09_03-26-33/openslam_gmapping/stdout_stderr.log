@@ -1,0 +1,75 @@
+[ 22%] Built target utils
+[ 27%] Built target sensor_base
+[ 40%] Built target sensor_odometry
+[ 54%] Built target sensor_range
+[ 77%] Built target scanmatcher
+[100%] Built target gridfastslam
+-- Install configuration: ""
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/grid
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/grid/map.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/particlefilter
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/log
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/log/configuration.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/point.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/stat.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libgridfastslam.a
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libscanmatcher.a
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libsensor_base.a
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libsensor_odometry.a
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libsensor_range.a
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libutils.a
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv

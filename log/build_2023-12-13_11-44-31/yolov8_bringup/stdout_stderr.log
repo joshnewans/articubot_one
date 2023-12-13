@@ -1,0 +1,39 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:9 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/winter24/gcamp_ros2_ws/build/yolov8_bringup
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup//launch/yolov8.launch.py
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup//launch/yolov8_3d.launch.py
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/ament_index/resource_index/package_run_dependencies/yolov8_bringup
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/ament_index/resource_index/parent_prefix_path/yolov8_bringup
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/environment/path.sh
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/environment/path.dsv
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.bash
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.sh
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.zsh
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.dsv
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/package.dsv
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/ament_index/resource_index/packages/yolov8_bringup
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/cmake/yolov8_bringupConfig.cmake
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/cmake/yolov8_bringupConfig-version.cmake
+-- Symlinking: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/package.xml

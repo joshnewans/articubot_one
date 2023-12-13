@@ -1,0 +1,72 @@
+[0.538s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/winter24/gcamp_ros2_ws/install/openslam_gmapping:/home/winter24/gcamp_ros2_ws/install/yolov8_bringup:/home/winter24/gcamp_ros2_ws/install/yolov8_msgs:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher:/home/winter24/gcamp_ros2_ws/install/slam_gmapping:/home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2:/home/winter24/gcamp_ros2_ws/install/mpu6050driver:/home/winter24/gcamp_ros2_ws/install/gcamp_gazebo:/home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins:/home/winter24/gcamp_ros2_ws/install/aws_robomaker_small_warehouse_world:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake /home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/winter24/gcamp_ros2_ws/install/slam_gmapping
+[0.571s] [0m -fuse-ld=lld -Wl,--disable-new-dtags[0m
+[0.571s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.572s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.572s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.572s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.572s]   the cmake_policy command to set the policy and suppress this warning.
+[0.573s] 
+[0.573s] Call Stack (most recent call first):
+[0.573s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.573s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.573s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.573s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.573s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.573s]   CMakeLists.txt:20 (find_package)
+[0.573s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.573s] [0m
+[0.596s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.730s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.738s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.765s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.770s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.960s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.030s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.207s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.222s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.300s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.301s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.639s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.641s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.661s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.715s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.830s] -- Found openslam_gmapping: 0.1.2 (/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[1.835s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.921s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.921s] -- Configured cppcheck include dirs: /home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include
+[1.922s] -- Configured cppcheck exclude dirs and/or files: 
+[1.923s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.924s] -- Added test 'lint_cmake' to check CMake code style
+[1.925s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.927s] -- Added test 'uncrustify' to check C / C++ code style
+[1.927s] -- Configured uncrustify additional arguments: 
+[1.928s] -- Added test 'xmllint' to check XML markup files
+[1.930s] -- Configuring done (1.4s)
+[1.940s] -- Generating done (0.0s)
+[1.943s] -- Build files have been written to: /home/winter24/gcamp_ros2_ws/build/slam_gmapping
+[2.111s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/winter24/gcamp_ros2_ws/install/openslam_gmapping:/home/winter24/gcamp_ros2_ws/install/yolov8_bringup:/home/winter24/gcamp_ros2_ws/install/yolov8_msgs:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher:/home/winter24/gcamp_ros2_ws/install/slam_gmapping:/home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2:/home/winter24/gcamp_ros2_ws/install/mpu6050driver:/home/winter24/gcamp_ros2_ws/install/gcamp_gazebo:/home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins:/home/winter24/gcamp_ros2_ws/install/aws_robomaker_small_warehouse_world:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake /home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/winter24/gcamp_ros2_ws/install/slam_gmapping
+[2.114s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/winter24/gcamp_ros2_ws/install/openslam_gmapping:/home/winter24/gcamp_ros2_ws/install/yolov8_bringup:/home/winter24/gcamp_ros2_ws/install/yolov8_msgs:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher:/home/winter24/gcamp_ros2_ws/install/slam_gmapping:/home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2:/home/winter24/gcamp_ros2_ws/install/mpu6050driver:/home/winter24/gcamp_ros2_ws/install/gcamp_gazebo:/home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins:/home/winter24/gcamp_ros2_ws/install/aws_robomaker_small_warehouse_world:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/slam_gmapping -- -j16 -l16
+[2.166s] [ 50%] [32m[1mLinking CXX executable slam_gmapping[0m
+[2.469s] [100%] Built target slam_gmapping
+[2.506s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/winter24/gcamp_ros2_ws/install/openslam_gmapping:/home/winter24/gcamp_ros2_ws/install/yolov8_bringup:/home/winter24/gcamp_ros2_ws/install/yolov8_msgs:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher:/home/winter24/gcamp_ros2_ws/install/slam_gmapping:/home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2:/home/winter24/gcamp_ros2_ws/install/mpu6050driver:/home/winter24/gcamp_ros2_ws/install/gcamp_gazebo:/home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins:/home/winter24/gcamp_ros2_ws/install/aws_robomaker_small_warehouse_world:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/slam_gmapping -- -j16 -l16
+[2.541s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/winter24/gcamp_ros2_ws/install/openslam_gmapping:/home/winter24/gcamp_ros2_ws/install/yolov8_bringup:/home/winter24/gcamp_ros2_ws/install/yolov8_msgs:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher:/home/winter24/gcamp_ros2_ws/install/slam_gmapping:/home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2:/home/winter24/gcamp_ros2_ws/install/mpu6050driver:/home/winter24/gcamp_ros2_ws/install/gcamp_gazebo:/home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins:/home/winter24/gcamp_ros2_ws/install/aws_robomaker_small_warehouse_world:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/slam_gmapping
+[2.564s] -- Install configuration: ""
+[2.564s] -- Execute custom install script
+[2.564s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[2.566s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[2.568s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[2.570s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[2.573s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[2.575s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[2.578s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[2.579s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[2.584s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[2.586s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[2.586s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[2.587s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[2.588s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[2.591s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[2.594s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[2.596s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[2.597s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[2.604s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/winter24/gcamp_ros2_ws/install/openslam_gmapping:/home/winter24/gcamp_ros2_ws/install/yolov8_bringup:/home/winter24/gcamp_ros2_ws/install/yolov8_msgs:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher:/home/winter24/gcamp_ros2_ws/install/slam_gmapping:/home/winter24/gcamp_ros2_ws/install/robot_pose_publisher_ros2:/home/winter24/gcamp_ros2_ws/install/mpu6050driver:/home/winter24/gcamp_ros2_ws/install/gcamp_gazebo:/home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins:/home/winter24/gcamp_ros2_ws/install/aws_robomaker_small_warehouse_world:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/slam_gmapping

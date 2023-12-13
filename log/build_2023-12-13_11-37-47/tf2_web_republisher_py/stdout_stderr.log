@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/dependency_links.txt
+writing entry points to ../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/entry_points.txt
+writing requirements to ../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/requires.txt
+writing top-level names to ../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/top_level.txt
+reading manifest file '../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py/lib/python3.8/site-packages/tf2_web_republisher_py-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info to /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py/lib/python3.8/site-packages/tf2_web_republisher_py-0.0.0-py3.8.egg-info
+running install_scripts
+Installing tf2_web_republisher script to /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py/lib/tf2_web_republisher_py
+writing list of installed files to '/home/winter24/gcamp_ros2_ws/build/tf2_web_republisher_py/install.log'

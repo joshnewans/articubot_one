@@ -1,0 +1,1 @@
+/home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins/ament_cmake_core/gazebo_mecanum_pluginsConfig.cmake

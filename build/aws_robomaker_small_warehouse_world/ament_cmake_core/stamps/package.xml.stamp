@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>aws_robomaker_small_warehouse_world</name>
+  <version>1.0.5</version>
+  <description>
+    AWS RoboMaker package for a warehouse world to use in manufacturing and logistics robot applications.
+  </description>
+  <license>MIT-0</license>
+  <author email="ros-contributions@amazon.com">AWS RoboMaker</author>
+  <maintainer email="ros-contributions@amazon.com">AWS RoboMaker</maintainer>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <depend>gazebo_ros</depend>
+  <exec_depend>gazebo</exec_depend>
+  <exec_depend>gazebo_plugins</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <gazebo_ros plugin_path="${prefix}/lib" gazebo_media_path="${prefix}" gazebo_model_path="${prefix}/models"/>
+  </export>
+</package>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+    <name>slam_gmapping</name>
+    <version>0.0.0</version>
+    <description>This package contains a ROS2 Crystal Clemmys wrapper for OpenSlam's Gmapping.
+        The gmapping package provides laser-based SLAM (Simultaneous Localization and Mapping),
+        as a ROS node called slam_gmapping. Using slam_gmapping, you can create a 2-D occupancy
+        grid map (like a building floorplan) from laser and pose data collected by a mobile robot.
+    </description>
+    <author>Brian Gerkey</author>
+    <maintainer email="vincent.rabaud@gmail.com">Vincent Rabaud</maintainer>
+    <license>CreativeCommons-by-nc-sa-2.0</license>
+
+    <url>http://ros.org/wiki/gmapping</url>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+
+    <depend>std_msgs</depend>
+    <depend>nav_msgs</depend>
+    <depend>tf2</depend>
+    <depend>tf2_ros</depend>
+    <depend>tf2_geometry_msgs</depend>
+    <depend>message_filters</depend>
+    <depend>rclcpp</depend>
+    <depend>sensor_msgs</depend>
+    <depend>visualization_msgs</depend>
+    <depend>openslam_gmapping</depend>
+
+    <test_depend>ament_lint_auto</test_depend>
+    <test_depend>ament_lint_common</test_depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>

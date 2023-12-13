@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:9 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/winter24/gcamp_ros2_ws/build/yolov8_bringup
+-- Install configuration: ""
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup//launch
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup//launch/yolov8_3d.launch.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup//launch/yolov8.launch.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/ament_index/resource_index/package_run_dependencies/yolov8_bringup
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/ament_index/resource_index/parent_prefix_path/yolov8_bringup
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/environment/path.sh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/environment/path.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.bash
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.sh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.zsh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/package.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/ament_index/resource_index/packages/yolov8_bringup
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/cmake/yolov8_bringupConfig.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/cmake/yolov8_bringupConfig-version.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_bringup/share/yolov8_bringup/package.xml

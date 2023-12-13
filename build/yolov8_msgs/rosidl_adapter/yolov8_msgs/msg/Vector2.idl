@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yolov8_msgs/msg/Vector2.msg
+// generated code does not contain a copyright notice
+
+
+module yolov8_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " 2D size in pixel")
+    struct Vector2 {
+      double x;
+
+      double y;
+    };
+  };
+};

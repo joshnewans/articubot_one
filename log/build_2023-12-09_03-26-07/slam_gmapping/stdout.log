@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+-- Found openslam_gmapping: 0.1.2 (/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/winter24/gcamp_ros2_ws/build/slam_gmapping
+[ 50%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[100%] [32m[1mLinking CXX executable slam_gmapping[0m
+[100%] Built target slam_gmapping
+-- Install configuration: ""
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+-- Set runtime path of "/home/winter24/gcamp_ros2_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping" to ""
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/launch
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.xml

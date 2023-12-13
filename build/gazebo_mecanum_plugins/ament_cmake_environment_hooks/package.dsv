@@ -1,0 +1,4 @@
+source;share/gazebo_mecanum_plugins/local_setup.bash
+source;share/gazebo_mecanum_plugins/local_setup.dsv
+source;share/gazebo_mecanum_plugins/local_setup.sh
+source;share/gazebo_mecanum_plugins/local_setup.zsh

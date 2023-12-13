@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing ball_tracker.egg-info/PKG-INFO
+writing dependency_links to ball_tracker.egg-info/dependency_links.txt
+writing entry points to ball_tracker.egg-info/entry_points.txt
+writing requirements to ball_tracker.egg-info/requires.txt
+writing top-level names to ball_tracker.egg-info/top_level.txt
+reading manifest file 'ball_tracker.egg-info/SOURCES.txt'
+writing manifest file 'ball_tracker.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/site.py
+Creating /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball-tracker.egg-link (link to .)
+Installing detect_ball script to /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/ball_tracker
+Installing detect_ball_3d script to /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/ball_tracker
+Installing follow_ball script to /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/ball_tracker
+
+Installed /home/winter24/gcamp_ros2_ws/build/ball_tracker
+running install_data

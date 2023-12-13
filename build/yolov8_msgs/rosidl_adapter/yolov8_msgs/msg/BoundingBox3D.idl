@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yolov8_msgs/msg/BoundingBox3D.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module yolov8_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " 3D position and orientation of the bounding box center")
+    struct BoundingBox3D {
+      geometry_msgs::msg::Pose center;
+
+      @verbatim (language="comment", text=
+        " total size of the bounding box, in meters, surrounding the object's center")
+      geometry_msgs::msg::Vector3 size;
+
+      @verbatim (language="comment", text=
+        " frame reference")
+      string frame_id;
+    };
+  };
+};

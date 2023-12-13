@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgridfastslam.a CMakeFiles/gridfastslam.dir/gfsreader.cpp.o CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o CMakeFiles/gridfastslam.dir/motionmodel.cpp.o
+/usr/bin/ranlib libgridfastslam.a

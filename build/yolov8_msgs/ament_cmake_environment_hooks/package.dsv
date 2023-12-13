@@ -1,0 +1,4 @@
+source;share/yolov8_msgs/local_setup.bash
+source;share/yolov8_msgs/local_setup.dsv
+source;share/yolov8_msgs/local_setup.sh
+source;share/yolov8_msgs/local_setup.zsh

@@ -1,0 +1,25 @@
+[ 50%] Built target gazebo_mecanum_drive
+[100%] Built target gazebo_mecanum_pid_drive
+-- Install configuration: ""
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/ament_index/resource_index/package_run_dependencies/gazebo_mecanum_plugins
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/ament_index/resource_index/parent_prefix_path/gazebo_mecanum_plugins
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/environment/ament_prefix_path.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/environment/path.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/environment/path.dsv
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/local_setup.bash
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/local_setup.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/local_setup.zsh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/local_setup.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/package.dsv
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/ament_index/resource_index/packages/gazebo_mecanum_plugins
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/cmake/gazebo_mecanum_pluginsConfig.cmake
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/cmake/gazebo_mecanum_pluginsConfig-version.cmake
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/package.xml
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/include
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/include/gazebo_mecanum_plugins
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/include/gazebo_mecanum_plugins/gazebo_mecanum_drive_private.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/include/gazebo_mecanum_plugins/gazebo_mecanum_drive.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/lib/libgazebo_mecanum_drive.so
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/lib/libgazebo_mecanum_pid_drive.so
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/

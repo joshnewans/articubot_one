@@ -1,0 +1,124 @@
+[0.950s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake /home/winter24/gcamp_ros2_ws/zm_robot-ros2/gazebo_mecanum_plugins -DCMAKE_INSTALL_PREFIX=/home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins
+[1.226s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.227s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.227s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.227s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[1.227s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.227s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.227s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.227s] -- Searching for dependencies of ignition-math6
+[1.228s] -- Looking for OGRE...
+[1.228s] -- Found Ogre Ghadamon (1.9.0)
+[1.228s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.228s] -- Looking for OGRE_Paging...
+[1.228s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.228s] -- Looking for OGRE_Terrain...
+[1.228s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.228s] -- Looking for OGRE_Property...
+[1.228s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.228s] -- Looking for OGRE_RTShaderSystem...
+[1.228s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.228s] -- Looking for OGRE_Volume...
+[1.228s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.228s] -- Looking for OGRE_Overlay...
+[1.229s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.229s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.229s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.229s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.229s]   the cmake_policy command to set the policy and suppress this warning.
+[1.229s] 
+[1.229s] Call Stack (most recent call first):
+[1.229s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.229s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.229s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.229s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.229s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.229s]   CMakeLists.txt:19 (find_package)
+[1.230s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.230s] [0m
+[1.572s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.572s] -- Looking for ignition-transport8 -- found version 8.4.0
+[1.573s] -- Searching for dependencies of ignition-transport8
+[1.598s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.612s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.617s] -- Checking for module 'libzmq >= 4'
+[1.635s] --   Found libzmq , version 4.3.2
+[1.681s] -- Checking for module 'uuid'
+[1.695s] --   Found uuid, version 2.34.0
+[1.732s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.732s] -- Searching for dependencies of ignition-msgs5
+[1.756s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.761s] -- Checking for module 'tinyxml2'
+[1.781s] --   Found tinyxml2, version 6.2.0
+[1.804s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.804s] -- Looking for ignition-common3 -- found version 3.16.0
+[1.804s] -- Searching for dependencies of ignition-common3
+[1.805s] -- Looking for dlfcn.h - found
+[1.805s] -- Looking for libdl - found
+[1.816s] -- Searching for <ignition-common3> component [graphics]
+[1.817s] -- Looking for ignition-common3-graphics -- found version 3.16.0
+[1.817s] -- Searching for dependencies of ignition-common3-graphics
+[1.817s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.818s] -- Looking for ignition-fuel_tools4 -- found version 4.9.0
+[1.819s] -- Searching for dependencies of ignition-fuel_tools4
+[1.862s] -- Checking for module 'jsoncpp'
+[1.871s] --   Found jsoncpp, version 1.7.4
+[1.900s] -- Checking for module 'libzip'
+[1.911s] --   Found libzip, version 1.5.1
+[1.937s] -- Looking for ignition-common3 -- found version 3.16.0
+[1.937s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.938s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.939s] -- Gazebo version: 11.14
+[1.939s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[1.961s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.965s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.363s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[2.391s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.392s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.502s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.552s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[2.558s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.563s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.792s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.869s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.869s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.870s] -- Configured cppcheck include dirs: /home/winter24/gcamp_ros2_ws/zm_robot-ros2/gazebo_mecanum_plugins/include
+[2.870s] -- Configured cppcheck exclude dirs and/or files: 
+[2.871s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.871s] -- Configured cpplint exclude dirs and/or files: 
+[2.872s] -- Added test 'lint_cmake' to check CMake code style
+[2.873s] -- Added test 'uncrustify' to check C / C++ code style
+[2.873s] -- Configured uncrustify additional arguments: 
+[2.873s] -- Added test 'xmllint' to check XML markup files
+[2.874s] -- Configuring done (1.9s)
+[2.897s] -- Generating done (0.0s)
+[2.899s] -- Build files have been written to: /home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins
+[3.135s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake /home/winter24/gcamp_ros2_ws/zm_robot-ros2/gazebo_mecanum_plugins -DCMAKE_INSTALL_PREFIX=/home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins
+[3.137s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins -- -j16 -l16
+[3.186s] [ 50%] Built target gazebo_mecanum_drive
+[3.197s] [100%] Built target gazebo_mecanum_pid_drive
+[3.304s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins -- -j16 -l16
+[3.546s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins
+[3.619s] -- Install configuration: ""
+[3.619s] -- Execute custom install script
+[3.619s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/ament_index/resource_index/package_run_dependencies/gazebo_mecanum_plugins
+[3.619s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/ament_index/resource_index/parent_prefix_path/gazebo_mecanum_plugins
+[3.619s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/environment/ament_prefix_path.sh
+[3.619s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/environment/ament_prefix_path.dsv
+[3.619s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/environment/path.sh
+[3.620s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/environment/path.dsv
+[3.620s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/local_setup.bash
+[3.620s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/local_setup.sh
+[3.620s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/local_setup.zsh
+[3.620s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/local_setup.dsv
+[3.620s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/package.dsv
+[3.620s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/ament_index/resource_index/packages/gazebo_mecanum_plugins
+[3.620s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/cmake/gazebo_mecanum_pluginsConfig.cmake
+[3.620s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/cmake/gazebo_mecanum_pluginsConfig-version.cmake
+[3.620s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/share/gazebo_mecanum_plugins/package.xml
+[3.620s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/include/gazebo_mecanum_plugins/gazebo_mecanum_drive.h
+[3.620s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/include/gazebo_mecanum_plugins/gazebo_mecanum_drive_private.h
+[3.621s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/lib/libgazebo_mecanum_drive.so
+[3.621s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/gazebo_mecanum_plugins/lib/libgazebo_mecanum_pid_drive.so
+[3.730s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins

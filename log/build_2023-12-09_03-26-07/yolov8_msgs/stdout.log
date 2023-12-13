@@ -1,0 +1,499 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Configuring done (1.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/winter24/gcamp_ros2_ws/build/yolov8_msgs
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  1%] Built target yolov8_msgs__cpp
+[  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  5%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/pose2_d__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/point2_d__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/vector2__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/bounding_box3_d__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/bounding_box2_d__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point2_d__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/mask__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point2_d_array__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point3_d_array__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point3_d__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/detection__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/detection_array__functions.c.o[0m
+[ 14%] [32m[1mLinking C shared library libyolov8_msgs__rosidl_generator_c.so[0m
+[ 14%] Built target yolov8_msgs__rosidl_generator_c
+[ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/vector2__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/pose2_d__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/point2_d__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/mask__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/bounding_box2_d__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point2_d__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point2_d_array__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point3_d__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/detection__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/detection_array__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point3_d_array__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/point2_d__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/vector2__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/pose2_d__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/bounding_box2_d__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/bounding_box3_d__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/mask__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point2_d__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point2_d_array__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/point2_d__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point3_d__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/vector2__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point3_d_array__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/detection_array__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/detection__type_support.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_cpp.so[0m
+[ 40%] Built target yolov8_msgs__rosidl_typesupport_cpp
+[ 41%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/bounding_box2_d__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/mask__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point2_d__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/point2_d__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point2_d_array__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/vector2__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point3_d__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point3_d_array__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/pose2_d__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/detection__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/detection_array__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/bounding_box2_d__type_support.cpp.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/point2_d__type_support.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/vector2__type_support.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/pose2_d__type_support.c.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/bounding_box2_d__type_support.c.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/mask__type_support.cpp.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/bounding_box3_d__type_support.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point2_d__type_support.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point2_d_array__type_support.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/mask__type_support.c.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point2_d__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point2_d_array__type_support.cpp.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point3_d_array__type_support.c.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point3_d__type_support.c.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point3_d__type_support.cpp.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/detection__type_support.c.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point3_d_array__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/detection_array__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/detection__type_support.cpp.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/detection_array__type_support.c.o[0m
+[ 68%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_c.so[0m
+[ 69%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 70%] [32m[1mLinking C shared library libyolov8_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 70%] Built target yolov8_msgs__rosidl_typesupport_c
+[ 70%] Built target yolov8_msgs__rosidl_typesupport_introspection_c
+[ 70%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp
+[ 71%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 71%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp
+[ 72%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/point2_d__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/vector2__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/pose2_d__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/bounding_box2_d__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/mask__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/bounding_box3_d__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point3_d__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point2_d__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point2_d_array__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point3_d_array__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/detection__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/detection_array__type_support_c.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 83%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c
+[ 83%] Built target yolov8_msgs
+[ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 84%] Built target yolov8_msgs__py
+[ 85%] [32mBuilding C object CMakeFiles/yolov8_msgs__python.dir/rosidl_generator_py/yolov8_msgs/msg/_point2_d_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/yolov8_msgs__python.dir/rosidl_generator_py/yolov8_msgs/msg/_vector2_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/yolov8_msgs__python.dir/rosidl_generator_py/yolov8_msgs/msg/_pose2_d_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/yolov8_msgs__python.dir/rosidl_generator_py/yolov8_msgs/msg/_bounding_box3_d_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/yolov8_msgs__python.dir/rosidl_generator_py/yolov8_msgs/msg/_bounding_box2_d_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/yolov8_msgs__python.dir/rosidl_generator_py/yolov8_msgs/msg/_mask_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/yolov8_msgs__python.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point2_d_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/yolov8_msgs__python.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point2_d_array_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/yolov8_msgs__python.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point3_d_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/yolov8_msgs__python.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point3_d_array_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/yolov8_msgs__python.dir/rosidl_generator_py/yolov8_msgs/msg/_detection_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/yolov8_msgs__python.dir/rosidl_generator_py/yolov8_msgs/msg/_detection_array_s.c.o[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_msgs/libyolov8_msgs__python.so[0m
+[ 95%] Built target yolov8_msgs__python
+[ 96%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 98%] [32m[1mLinking CXX shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 99%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target yolov8_msgs__rosidl_typesupport_c__pyext
+[100%] Built target yolov8_msgs__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detection.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/bounding_box3_d.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/vector2.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point3_d_array.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point2_d_array.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point3_d.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detection_array.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__functions.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__struct.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__functions.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__functions.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__functions.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__functions.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__functions.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__struct.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__type_support.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__functions.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__functions.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__struct.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__type_support.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__type_support.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__functions.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__functions.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__functions.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__type_support.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__type_support.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__type_support.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__struct.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__functions.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__type_support.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__struct.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__functions.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__struct.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__type_support.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__functions.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__functions.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__functions.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__struct.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__struct.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__functions.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__type_support.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__type_support.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__struct.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__functions.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__struct.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__functions.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__type_support.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__struct.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__functions.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__functions.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__functions.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__functions.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__functions.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__struct.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__type_support.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/bounding_box2_d.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/point2_d.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/pose2_d.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point2_d.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/mask.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__type_support.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__type_support.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__type_support.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__type_support.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__type_support.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__type_support.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__type_support.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__type_support.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__rosidl_typesupport_introspection_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_introspection_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__type_support.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__type_support.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__type_support.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__type_support.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_c.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point2_d_array.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/bounding_box3_d.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/vector2.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detection_array.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/bounding_box2_d.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detection.hpp
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__type_support.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__traits.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__builder.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__builder.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__builder.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__type_support.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__struct.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__type_support.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__traits.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__builder.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__type_support.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__struct.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__builder.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__struct.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__builder.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__type_support.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__struct.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__builder.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__struct.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__builder.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__type_support.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__type_support.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__builder.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__traits.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__type_support.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__type_support.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__builder.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__traits.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__traits.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__struct.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__traits.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__type_support.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__builder.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__traits.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__traits.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__struct.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__type_support.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__struct.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__struct.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__struct.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__traits.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__traits.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__builder.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__traits.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__struct.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__struct.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__traits.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__type_support.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/point2_d.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point3_d.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/mask.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/pose2_d.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point2_d.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/key_point3_d_array.hpp
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__type_support.cpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__type_support.cpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__type_support.cpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__type_support.cpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__type_support.cpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__type_support.cpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/point2_d__type_support.cpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box3_d__type_support.cpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__type_support.cpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__type_support.cpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/vector2__type_support.cpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__type_support.cpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/mask__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/__init__.py
+Compiling '/home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/__init__.py'...
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_key_point2_d_s.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_point2_d.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_point2_d_s.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_detection_array_s.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_key_point2_d_array.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_vector2_s.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_bounding_box2_d.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_vector2.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_pose2_d_s.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_key_point3_d_s.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_key_point2_d.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_pose2_d.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_key_point3_d_array.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_detection_array.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_mask_s.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_mask.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_bounding_box3_d_s.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_detection_s.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_key_point3_d_array_s.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_bounding_box2_d_s.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_key_point3_d.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_key_point2_d_array_s.c
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_detection.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/__init__.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_bounding_box3_d.py
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__python.so
+-- Set runtime path of "/home/winter24/gcamp_ros2_ws/install/yolov8_msgs/lib/libyolov8_msgs__python.so" to ""
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Point2D.idl
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Vector2.idl
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Pose2D.idl
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox2D.idl
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox3D.idl
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Mask.idl
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2D.idl
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2DArray.idl
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3D.idl
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3DArray.idl
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Detection.idl
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionArray.idl
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Point2D.msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Vector2.msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Pose2D.msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox2D.msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/BoundingBox3D.msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Mask.msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2D.msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint2DArray.msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3D.msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/KeyPoint3DArray.msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Detection.msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/msg/DetectionArray.msg
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/yolov8_msgs/share/yolov8_msgs/package.xml

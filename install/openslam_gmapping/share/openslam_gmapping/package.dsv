@@ -1,0 +1,8 @@
+source;share/openslam_gmapping/hook/cmake_prefix_path.ps1
+source;share/openslam_gmapping/hook/cmake_prefix_path.dsv
+source;share/openslam_gmapping/hook/cmake_prefix_path.sh
+source;share/openslam_gmapping/local_setup.bash
+source;share/openslam_gmapping/local_setup.dsv
+source;share/openslam_gmapping/local_setup.ps1
+source;share/openslam_gmapping/local_setup.sh
+source;share/openslam_gmapping/local_setup.zsh

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins/libgazebo_mecanum_drive.so" "/home/winter24/gcamp_ros2_ws/build/gazebo_mecanum_plugins/libgazebo_mecanum_pid_drive.so" "TARGETS" "gazebo_mecanum_drive" "gazebo_mecanum_pid_drive" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

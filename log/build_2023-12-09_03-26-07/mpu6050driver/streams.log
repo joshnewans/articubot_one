@@ -1,0 +1,38 @@
+[0.638s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/mpu6050driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/zm_robot_teleop:/home/winter24/gcamp_ros2_ws/install/zm_robot_programing:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/mpu6050driver -- -j16 -l16
+[1.054s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.054s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.054s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.054s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.055s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.055s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.086s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.089s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.240s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.475s] -- Configuring done
+[1.489s] -- Generating done
+[1.489s] -- Build files have been written to: /home/winter24/gcamp_ros2_ws/build/mpu6050driver
+[1.539s] [100%] Built target mpu6050driver
+[1.556s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/mpu6050driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/zm_robot_teleop:/home/winter24/gcamp_ros2_ws/install/zm_robot_programing:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/mpu6050driver -- -j16 -l16
+[1.593s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/mpu6050driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/zm_robot_teleop:/home/winter24/gcamp_ros2_ws/install/zm_robot_programing:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/mpu6050driver
+[1.629s] -- Install configuration: ""
+[1.629s] -- Execute custom install script
+[1.629s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver
+[1.630s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/mpu6050driver//launch/mpu6050driver_launch.py
+[1.630s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/mpu6050driver//params/mpu6050.yaml
+[1.631s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/ament_index/resource_index/package_run_dependencies/mpu6050driver
+[1.631s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/ament_index/resource_index/parent_prefix_path/mpu6050driver
+[1.631s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.sh
+[1.631s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.dsv
+[1.631s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/path.sh
+[1.631s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/path.dsv
+[1.632s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.bash
+[1.632s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.sh
+[1.632s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.zsh
+[1.632s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.dsv
+[1.632s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/mpu6050driver/package.dsv
+[1.638s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/ament_index/resource_index/packages/mpu6050driver
+[1.639s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig.cmake
+[1.639s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig-version.cmake
+[1.639s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/mpu6050driver/share/mpu6050driver/package.xml
+[1.645s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/mpu6050driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/zm_robot_teleop:/home/winter24/gcamp_ros2_ws/install/zm_robot_programing:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/mpu6050driver

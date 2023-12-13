@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsensor_odometry.a CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o
+/usr/bin/ranlib libsensor_odometry.a

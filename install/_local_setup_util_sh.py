@@ -203,6 +203,9 @@ def process_dsv_file(
         # skip over empty or whitespace-only lines
         if not line.strip():
             continue
+        # skip over comments
+        if line.startswith('#'):
+            continue
         try:
             type_, remainder = line.split(';', 1)
         except ValueError:

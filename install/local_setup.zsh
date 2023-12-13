@@ -37,6 +37,7 @@ _colcon_prefix_zsh_prepend_unique_value() {
   IFS=":"
   # start with the new value
   _all_values="$_value"
+  _contained_value=""
   # workaround SH_WORD_SPLIT not being set
   _colcon_prefix_zsh_convert_to_array _values
   # iterate over existing values in the variable
@@ -47,12 +48,23 @@ _colcon_prefix_zsh_prepend_unique_value() {
     fi
     # ignore duplicates of _value
     if [ "$_item" = "$_value" ]; then
+      _contained_value=1
       continue
     fi
     # keep non-duplicate values
     _all_values="$_all_values:$_item"
   done
   unset _item
+  if [ -z "$_contained_value" ]; then
+    if [ -n "$COLCON_TRACE" ]; then
+      if [ "$_all_values" = "$_value" ]; then
+        echo "export $_listname=$_value"
+      else
+        echo "export $_listname=$_value:\$$_listname"
+      fi
+    fi
+  fi
+  unset _contained_value
   # restore the field separator
   IFS="$_colcon_prefix_zsh_prepend_unique_value_IFS"
   unset _colcon_prefix_zsh_prepend_unique_value_IFS
@@ -95,7 +107,7 @@ fi
 _colcon_prefix_sh_source_script() {
   if [ -f "$1" ]; then
     if [ -n "$COLCON_TRACE" ]; then
-      echo ". \"$1\""
+      echo "# . \"$1\""
     fi
     . "$1"
   else
@@ -107,10 +119,12 @@ _colcon_prefix_sh_source_script() {
 _colcon_ordered_commands="$($_colcon_python_executable "$_colcon_prefix_zsh_COLCON_CURRENT_PREFIX/_local_setup_util_sh.py" sh zsh)"
 unset _colcon_python_executable
 if [ -n "$COLCON_TRACE" ]; then
-  echo "Execute generated script:"
-  echo "<<<"
+  echo "$(declare -f _colcon_prefix_sh_source_script)"
+  echo "# Execute generated script:"
+  echo "# <<<"
   echo "${_colcon_ordered_commands}"
-  echo ">>>"
+  echo "# >>>"
+  echo "unset _colcon_prefix_sh_source_script"
 fi
 eval "${_colcon_ordered_commands}"
 unset _colcon_ordered_commands

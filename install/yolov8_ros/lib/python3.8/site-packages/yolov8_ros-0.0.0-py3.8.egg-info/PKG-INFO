@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: yolov8-ros
+Version: 0.0.0
+Summary: YOLOv8 for ROS 2
+Home-page: UNKNOWN
+Maintainer: Miguel Ángel González Santamarta
+Maintainer-email: mgons@unileon.es
+License: GPL-3
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsensor_range.a CMakeFiles/sensor_range.dir/rangereading.cpp.o CMakeFiles/sensor_range.dir/rangesensor.cpp.o
+/usr/bin/ranlib libsensor_range.a

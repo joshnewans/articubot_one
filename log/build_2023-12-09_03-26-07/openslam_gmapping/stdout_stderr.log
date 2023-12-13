@@ -1,0 +1,129 @@
+[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:19 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/winter24/gcamp_ros2_ws/build/openslam_gmapping
+[  4%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o[0m
+[  9%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o[0m
+[ 18%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o[0m
+[ 18%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o[0m
+[ 22%] [32m[1mLinking CXX static library libsensor_base.a[0m
+[ 22%] Built target sensor_base
+[ 40%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o[0m
+[ 40%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o[0m
+[ 40%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o[0m
+[ 40%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o[0m
+[ 45%] [32m[1mLinking CXX static library libutils.a[0m
+[ 45%] Built target utils
+[ 50%] [32m[1mLinking CXX static library libsensor_odometry.a[0m
+[ 50%] Built target sensor_odometry
+[ 54%] [32m[1mLinking CXX static library libsensor_range.a[0m
+[ 54%] Built target sensor_range
+[ 59%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o[0m
+[ 63%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o[0m
+[ 72%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o[0m
+[ 72%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o[0m
+[ 77%] [32m[1mLinking CXX static library libscanmatcher.a[0m
+[ 77%] Built target scanmatcher
+[ 81%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o[0m
+[ 86%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o[0m
+[ 90%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o[0m
+[ 95%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libgridfastslam.a[0m
+[100%] Built target gridfastslam
+-- Install configuration: ""
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/grid
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/grid/map.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/particlefilter
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/log
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/log/configuration.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/point.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include//gmapping/utils/stat.h
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libgridfastslam.a
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libscanmatcher.a
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libsensor_base.a
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libsensor_odometry.a
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libsensor_range.a
+-- Installing: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/lib/libutils.a
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+-- Up-to-date: /home/winter24/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv

@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+writing dependency_links to ../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+writing entry points to ../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+writing requirements to ../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+writing top-level names to ../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+reading manifest file '../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+writing manifest file '../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/yolov8_ros/yolov8_ros.egg-info to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros-0.0.0-py3.8.egg-info
+running install_scripts
+Installing debug_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+Installing detect_3d_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+Installing tracking_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+Installing yolov8_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+writing list of installed files to '/home/winter24/gcamp_ros2_ws/build/yolov8_ros/install.log'

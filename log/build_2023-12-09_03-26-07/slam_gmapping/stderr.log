@@ -1,0 +1,162 @@
+[0m -fuse-ld=lld -Wl,--disable-new-dtags[0m
+[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:20 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:2:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+  140 |  [01;35m[Kif[m[K (count>0)
+      |  [01;35m[K^~[m[K
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:3:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+  142 |   [01;36m[Kout[m[K++;
+      |   [01;36m[K^~~[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:10[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/utils/point.h:[m[K At global scope:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/utils/point.h:205:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  205 | }[01;35m[K;[m[K //end namespace
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:4[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensor.h:21:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   21 | }[01;35m[K;[m[K //end namespace
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:23:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   23 | }[01;35m[K;[m[K //end namespace
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:7[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometrysensor.h:17:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   17 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:8[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangesensor.h:33:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   33 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:9[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometryreading.h:27:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   27 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:10[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangereading.h:24:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   24 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:11[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/log/configuration.h:15:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   15 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:27:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   27 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/grid/map.h:5[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/grid/accessstate.h:6:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+    6 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/grid/map.h:6[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/grid/array2d.h:185:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  185 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/grid/map.h:262:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  262 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/grid/harray2d.h:5[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/utils/autoptr.h:96:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   96 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/grid/harray2d.h:197:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  197 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:52:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   52 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:7[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/utils/stat.h:145:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  145 | }[01;35m[K;[m[K //end namespace
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:250:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  250 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:16[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/motionmodel.h:17:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   17 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+In file included from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+                 from [01m[K/home/winter24/gcamp_ros2_ws/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/winter24/gcamp_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:335:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  335 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K

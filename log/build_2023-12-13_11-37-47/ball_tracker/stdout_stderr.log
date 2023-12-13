@@ -1,0 +1,51 @@
+running egg_info
+creating ../build/ball_tracker/ball_tracker.egg-info
+writing ../build/ball_tracker/ball_tracker.egg-info/PKG-INFO
+writing dependency_links to ../build/ball_tracker/ball_tracker.egg-info/dependency_links.txt
+writing entry points to ../build/ball_tracker/ball_tracker.egg-info/entry_points.txt
+writing requirements to ../build/ball_tracker/ball_tracker.egg-info/requires.txt
+writing top-level names to ../build/ball_tracker/ball_tracker.egg-info/top_level.txt
+writing manifest file '../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+reading manifest file '../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+writing manifest file '../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/winter24/gcamp_ros2_ws/build/ball_tracker/build
+creating /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib
+creating /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker
+copying ball_tracker/detect_ball_3d.py -> /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker
+copying ball_tracker/follow_ball.py -> /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker
+copying ball_tracker/process_image.py -> /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker
+copying ball_tracker/detect_ball.py -> /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker
+copying ball_tracker/__init__.py -> /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker
+running install
+running install_lib
+creating /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker
+copying /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker/detect_ball_3d.py -> /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker
+copying /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker/follow_ball.py -> /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker
+copying /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker/process_image.py -> /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker
+copying /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker/detect_ball.py -> /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker
+copying /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker/__init__.py -> /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker
+byte-compiling /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker/detect_ball_3d.py to detect_ball_3d.cpython-38.pyc
+byte-compiling /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker/follow_ball.py to follow_ball.cpython-38.pyc
+byte-compiling /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker/process_image.py to process_image.cpython-38.pyc
+byte-compiling /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker/detect_ball.py to detect_ball.cpython-38.pyc
+byte-compiling /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/winter24/gcamp_ros2_ws/install/ball_tracker/share/ament_index
+creating /home/winter24/gcamp_ros2_ws/install/ball_tracker/share/ament_index/resource_index
+creating /home/winter24/gcamp_ros2_ws/install/ball_tracker/share/ament_index/resource_index/packages
+copying resource/ball_tracker -> /home/winter24/gcamp_ros2_ws/install/ball_tracker/share/ament_index/resource_index/packages
+copying package.xml -> /home/winter24/gcamp_ros2_ws/install/ball_tracker/share/ball_tracker
+creating /home/winter24/gcamp_ros2_ws/install/ball_tracker/share/ball_tracker/launch
+copying launch/example_launch_include.launch.py -> /home/winter24/gcamp_ros2_ws/install/ball_tracker/share/ball_tracker/launch
+copying launch/ball_tracker.launch.py -> /home/winter24/gcamp_ros2_ws/install/ball_tracker/share/ball_tracker/launch
+creating /home/winter24/gcamp_ros2_ws/install/ball_tracker/share/ball_tracker/config
+copying config/ball_tracker_params_example.yaml -> /home/winter24/gcamp_ros2_ws/install/ball_tracker/share/ball_tracker/config
+running install_egg_info
+Copying ../build/ball_tracker/ball_tracker.egg-info to /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker-0.0.0-py3.8.egg-info
+running install_scripts
+Installing detect_ball script to /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/ball_tracker
+Installing detect_ball_3d script to /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/ball_tracker
+Installing follow_ball script to /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/ball_tracker
+writing list of installed files to '/home/winter24/gcamp_ros2_ws/build/ball_tracker/install.log'

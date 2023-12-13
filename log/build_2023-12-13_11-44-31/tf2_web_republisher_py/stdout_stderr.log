@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing tf2_web_republisher_py.egg-info/PKG-INFO
+writing dependency_links to tf2_web_republisher_py.egg-info/dependency_links.txt
+writing entry points to tf2_web_republisher_py.egg-info/entry_points.txt
+writing requirements to tf2_web_republisher_py.egg-info/requires.txt
+writing top-level names to tf2_web_republisher_py.egg-info/top_level.txt
+reading manifest file 'tf2_web_republisher_py.egg-info/SOURCES.txt'
+writing manifest file 'tf2_web_republisher_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py/lib/python3.8/site-packages/tf2-web-republisher-py.egg-link (link to .)
+Installing tf2_web_republisher script to /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py/lib/tf2_web_republisher_py
+
+Installed /home/winter24/gcamp_ros2_ws/build/tf2_web_republisher_py
+running install_data

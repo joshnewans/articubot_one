@@ -1,0 +1,1 @@
+/home/winter24/gcamp_ros2_ws/zm_robot-ros2/aws-robomaker-small-warehouse-world/launch/no_roof_small_warehouse.launch.py

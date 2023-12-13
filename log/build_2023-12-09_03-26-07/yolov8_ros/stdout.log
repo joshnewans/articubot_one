@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/yolov8_ros/yolov8_ros.egg-info
+writing ../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+writing dependency_links to ../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+writing entry points to ../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+writing requirements to ../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+writing top-level names to ../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+writing manifest file '../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+reading manifest file '../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+writing manifest file '../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build
+creating /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib
+creating /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+copying yolov8_ros/yolov8_node.py -> /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+copying yolov8_ros/debug_node.py -> /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+copying yolov8_ros/detect_3d_node.py -> /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+copying yolov8_ros/tracking_node.py -> /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+copying yolov8_ros/__init__.py -> /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros
+running install
+running install_lib
+creating /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros
+copying /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros/yolov8_node.py -> /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros
+copying /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros/debug_node.py -> /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros
+copying /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros/detect_3d_node.py -> /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros
+copying /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros/tracking_node.py -> /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros
+copying /home/winter24/gcamp_ros2_ws/build/yolov8_ros/build/lib/yolov8_ros/__init__.py -> /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros
+byte-compiling /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_node.py to yolov8_node.cpython-38.pyc
+byte-compiling /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/debug_node.py to debug_node.cpython-38.pyc
+byte-compiling /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/detect_3d_node.py to detect_3d_node.cpython-38.pyc
+byte-compiling /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/tracking_node.py to tracking_node.cpython-38.pyc
+byte-compiling /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/winter24/gcamp_ros2_ws/install/yolov8_ros/share/ament_index
+creating /home/winter24/gcamp_ros2_ws/install/yolov8_ros/share/ament_index/resource_index
+creating /home/winter24/gcamp_ros2_ws/install/yolov8_ros/share/ament_index/resource_index/packages
+copying resource/yolov8_ros -> /home/winter24/gcamp_ros2_ws/install/yolov8_ros/share/ament_index/resource_index/packages
+copying package.xml -> /home/winter24/gcamp_ros2_ws/install/yolov8_ros/share/yolov8_ros
+running install_egg_info
+Copying ../../build/yolov8_ros/yolov8_ros.egg-info to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros-0.0.0-py3.8.egg-info
+running install_scripts
+Installing debug_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+Installing detect_3d_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+Installing tracking_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+Installing yolov8_node script to /home/winter24/gcamp_ros2_ws/install/yolov8_ros/lib/yolov8_ros
+writing list of installed files to '/home/winter24/gcamp_ros2_ws/build/yolov8_ros/install.log'

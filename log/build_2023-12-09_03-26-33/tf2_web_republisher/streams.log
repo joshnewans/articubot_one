@@ -1,0 +1,128 @@
+[0.462s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/tf2_web_republisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/zm_robot_teleop:/home/winter24/gcamp_ros2_ws/install/zm_robot_programing:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/tf2_web_republisher -- -j16 -l16
+[0.709s] [  2%] Built target tf2_web_republisher__cpp
+[0.710s] [ 12%] Built target tf2_web_republisher__rosidl_generator_c
+[0.711s] [ 29%] Built target tf2_web_republisher__rosidl_typesupport_c
+[0.711s] [ 34%] Built target tf2_web_republisher__rosidl_typesupport_cpp
+[0.711s] [ 44%] Built target tf2_web_republisher__rosidl_typesupport_introspection_c
+[0.712s] [ 55%] Built target tf2_web_republisher__rosidl_typesupport_introspection_cpp
+[0.712s] [ 65%] Built target tf2_web_republisher__rosidl_typesupport_fastrtps_cpp
+[0.713s] [ 76%] Built target tf2_web_republisher__rosidl_typesupport_fastrtps_c
+[0.713s] [ 76%] Built target tf2_web_republisher
+[0.715s] [ 78%] Built target tf2_web_republisher__py
+[0.715s] [ 87%] Built target tf2_web_republisher__python
+[0.715s] [ 95%] Built target tf2_web_republisher__rosidl_typesupport_introspection_c__pyext
+[0.715s] [ 95%] Built target tf2_web_republisher__rosidl_typesupport_c__pyext
+[0.715s] [100%] Built target tf2_web_republisher__rosidl_typesupport_fastrtps_c__pyext
+[0.723s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/tf2_web_republisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/zm_robot_teleop:/home/winter24/gcamp_ros2_ws/install/zm_robot_programing:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --build /home/winter24/gcamp_ros2_ws/build/tf2_web_republisher -- -j16 -l16
+[1.257s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/tf2_web_republisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/zm_robot_teleop:/home/winter24/gcamp_ros2_ws/install/zm_robot_programing:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/tf2_web_republisher
+[1.277s] -- Install configuration: ""
+[1.278s] -- Execute custom install script
+[1.278s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/ament_index/resource_index/rosidl_interfaces/tf2_web_republisher
+[1.278s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/action/detail/tf_subscription__functions.h
+[1.279s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/action/detail/tf_subscription__struct.h
+[1.279s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/action/detail/tf_subscription__type_support.h
+[1.280s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/action/tf_subscription.h
+[1.280s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/detail/tf_array__functions.h
+[1.280s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/detail/tf_array__struct.h
+[1.281s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/detail/tf_array__type_support.h
+[1.281s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/rosidl_generator_c__visibility_control.h
+[1.281s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/tf_array.h
+[1.281s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/srv/detail/republish_t_fs__functions.h
+[1.282s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/srv/detail/republish_t_fs__struct.h
+[1.282s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/srv/detail/republish_t_fs__type_support.h
+[1.282s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/srv/republish_t_fs.h
+[1.282s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/library_path.sh
+[1.283s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/library_path.dsv
+[1.284s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/action/detail/tf_subscription__rosidl_typesupport_fastrtps_c.h
+[1.284s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/detail/tf_array__rosidl_typesupport_fastrtps_c.h
+[1.285s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.285s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/srv/detail/republish_t_fs__rosidl_typesupport_fastrtps_c.h
+[1.285s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__rosidl_typesupport_fastrtps_c.so
+[1.286s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/action/detail/tf_subscription__rosidl_typesupport_fastrtps_cpp.hpp
+[1.287s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/detail/tf_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.287s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.288s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/srv/detail/republish_t_fs__rosidl_typesupport_fastrtps_cpp.hpp
+[1.289s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__rosidl_typesupport_fastrtps_cpp.so
+[1.290s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/action/detail/tf_subscription__rosidl_typesupport_introspection_c.h
+[1.291s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/detail/tf_array__rosidl_typesupport_introspection_c.h
+[1.292s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.292s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/srv/detail/republish_t_fs__rosidl_typesupport_introspection_c.h
+[1.293s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/action/detail/tf_subscription__builder.hpp
+[1.293s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/action/detail/tf_subscription__struct.hpp
+[1.294s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/action/detail/tf_subscription__traits.hpp
+[1.294s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/action/detail/tf_subscription__type_support.hpp
+[1.294s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/action/tf_subscription.hpp
+[1.294s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/detail/tf_array__builder.hpp
+[1.294s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/detail/tf_array__struct.hpp
+[1.294s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/detail/tf_array__traits.hpp
+[1.294s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/detail/tf_array__type_support.hpp
+[1.294s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.294s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/tf_array.hpp
+[1.294s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/srv/detail/republish_t_fs__builder.hpp
+[1.294s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/srv/detail/republish_t_fs__struct.hpp
+[1.294s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/srv/detail/republish_t_fs__traits.hpp
+[1.295s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/srv/detail/republish_t_fs__type_support.hpp
+[1.295s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/srv/republish_t_fs.hpp
+[1.295s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/action/detail/tf_subscription__rosidl_typesupport_introspection_cpp.hpp
+[1.295s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/msg/detail/tf_array__rosidl_typesupport_introspection_cpp.hpp
+[1.295s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/include/tf2_web_republisher/srv/detail/republish_t_fs__rosidl_typesupport_introspection_cpp.hpp
+[1.295s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/pythonpath.sh
+[1.295s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/pythonpath.dsv
+[1.295s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/python3.8/site-packages/tf2_web_republisher/__init__.py
+[1.295s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/python3.8/site-packages/tf2_web_republisher/msg/__init__.py
+[1.295s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/python3.8/site-packages/tf2_web_republisher/msg/_tf_array.py
+[1.295s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/python3.8/site-packages/tf2_web_republisher/srv/__init__.py
+[1.295s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/python3.8/site-packages/tf2_web_republisher/srv/_republish_t_fs.py
+[1.295s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/python3.8/site-packages/tf2_web_republisher/action/__init__.py
+[1.295s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/python3.8/site-packages/tf2_web_republisher/action/_tf_subscription.py
+[1.296s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/python3.8/site-packages/tf2_web_republisher/tf2_web_republisher_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.296s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/python3.8/site-packages/tf2_web_republisher/tf2_web_republisher_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.296s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/python3.8/site-packages/tf2_web_republisher/tf2_web_republisher_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.296s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__python.so
+[1.296s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/msg/TFArray.idl
+[1.296s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/srv/RepublishTFs.idl
+[1.296s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/action/TFSubscription.idl
+[1.296s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/msg/TFArray.msg
+[1.296s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/srv/RepublishTFs.srv
+[1.296s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/srv/RepublishTFs_Request.msg
+[1.296s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/srv/RepublishTFs_Response.msg
+[1.296s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/action/TFSubscription.action
+[1.296s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/ament_index/resource_index/package_run_dependencies/tf2_web_republisher
+[1.297s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/ament_index/resource_index/parent_prefix_path/tf2_web_republisher
+[1.297s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/ament_prefix_path.sh
+[1.297s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/ament_prefix_path.dsv
+[1.297s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/path.sh
+[1.297s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/path.dsv
+[1.297s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/local_setup.bash
+[1.297s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/local_setup.sh
+[1.298s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/local_setup.zsh
+[1.298s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/local_setup.dsv
+[1.298s] -- Symlinking: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/package.dsv
+[1.298s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/ament_index/resource_index/packages/tf2_web_republisher
+[1.299s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/rosidl_cmake-extras.cmake
+[1.299s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.299s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/ament_cmake_export_libraries-extras.cmake
+[1.299s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/ament_cmake_export_targets-extras.cmake
+[1.299s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.299s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.299s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.299s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisherConfig.cmake
+[1.300s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisherConfig-version.cmake
+[1.300s] -- Up-to-date symlink: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/package.xml
+[1.300s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__rosidl_generator_c.so
+[1.301s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__rosidl_typesupport_introspection_c.so
+[1.301s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__rosidl_typesupport_c.so
+[1.301s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__rosidl_typesupport_introspection_cpp.so
+[1.301s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__rosidl_typesupport_cpp.so
+[1.313s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_generator_cExport.cmake
+[1.313s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_generator_cExport-noconfig.cmake
+[1.313s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_introspection_cExport.cmake
+[1.314s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.314s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_cExport.cmake
+[1.314s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_cExport-noconfig.cmake
+[1.314s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_generator_cppExport.cmake
+[1.315s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_introspection_cppExport.cmake
+[1.315s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.315s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_cppExport.cmake
+[1.316s] -- Up-to-date: /home/winter24/gcamp_ros2_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_cppExport-noconfig.cmake
+[1.855s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/tf2_web_republisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winter24/gcamp_ros2_ws/install/zm_robot_teleop:/home/winter24/gcamp_ros2_ws/install/zm_robot_programing:/home/winter24/gcamp_ros2_ws/install/yolov8_ros:/home/winter24/gcamp_ros2_ws/install/tf2_web_republisher_py:/opt/ros/foxy /home/winter24/.local/bin/cmake --install /home/winter24/gcamp_ros2_ws/build/tf2_web_republisher

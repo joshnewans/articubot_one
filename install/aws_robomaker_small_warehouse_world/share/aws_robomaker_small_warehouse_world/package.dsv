@@ -1,0 +1,8 @@
+source;share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.ps1
+source;share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.dsv
+source;share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.sh
+source;share/aws_robomaker_small_warehouse_world/local_setup.bash
+source;share/aws_robomaker_small_warehouse_world/local_setup.dsv
+source;share/aws_robomaker_small_warehouse_world/local_setup.ps1
+source;share/aws_robomaker_small_warehouse_world/local_setup.sh
+source;share/aws_robomaker_small_warehouse_world/local_setup.zsh

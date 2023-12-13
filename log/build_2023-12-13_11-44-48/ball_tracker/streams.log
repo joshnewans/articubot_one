@@ -1,0 +1,37 @@
+[2.023s] Invoking command in '/home/winter24/gcamp_ros2_ws/build/ball_tracker': PYTHONPATH=/home/winter24/gcamp_ros2_ws/build/ball_tracker/prefix_override:/home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/winter24/gcamp_ros2_ws/build/ball_tracker/build
+[2.220s] running develop
+[2.298s] Removing /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball-tracker.egg-link (link to .)
+[2.452s] Invoked command in '/home/winter24/gcamp_ros2_ws/build/ball_tracker' returned '0': PYTHONPATH=/home/winter24/gcamp_ros2_ws/build/ball_tracker/prefix_override:/home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/winter24/gcamp_ros2_ws/build/ball_tracker/build
+[2.454s] Invoking command in '/home/winter24/gcamp_ros2_ws/ball_tracker': PYTHONPATH=/home/winter24/gcamp_ros2_ws/build/ball_tracker/prefix_override:/home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ball_tracker build --build-base /home/winter24/gcamp_ros2_ws/build/ball_tracker/build install --record /home/winter24/gcamp_ros2_ws/build/ball_tracker/install.log --install-scripts $base/lib/ball_tracker --single-version-externally-managed
+[2.702s] running egg_info
+[2.702s] writing ../build/ball_tracker/ball_tracker.egg-info/PKG-INFO
+[2.702s] writing dependency_links to ../build/ball_tracker/ball_tracker.egg-info/dependency_links.txt
+[2.702s] writing entry points to ../build/ball_tracker/ball_tracker.egg-info/entry_points.txt
+[2.703s] writing requirements to ../build/ball_tracker/ball_tracker.egg-info/requires.txt
+[2.703s] writing top-level names to ../build/ball_tracker/ball_tracker.egg-info/top_level.txt
+[2.738s] reading manifest file '../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[2.739s] writing manifest file '../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[2.739s] running build
+[2.739s] running build_py
+[2.739s] running install
+[2.739s] running install_lib
+[2.739s] creating /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker
+[2.739s] copying /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker/detect_ball_3d.py -> /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker
+[2.740s] copying /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker/follow_ball.py -> /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker
+[2.740s] copying /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker/process_image.py -> /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker
+[2.740s] copying /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker/detect_ball.py -> /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker
+[2.740s] copying /home/winter24/gcamp_ros2_ws/build/ball_tracker/build/lib/ball_tracker/__init__.py -> /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker
+[2.740s] byte-compiling /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker/detect_ball_3d.py to detect_ball_3d.cpython-38.pyc
+[2.740s] byte-compiling /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker/follow_ball.py to follow_ball.cpython-38.pyc
+[2.740s] byte-compiling /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker/process_image.py to process_image.cpython-38.pyc
+[2.740s] byte-compiling /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker/detect_ball.py to detect_ball.cpython-38.pyc
+[2.741s] byte-compiling /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker/__init__.py to __init__.cpython-38.pyc
+[2.741s] running install_data
+[2.741s] running install_egg_info
+[2.742s] Copying ../build/ball_tracker/ball_tracker.egg-info to /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball_tracker-0.0.0-py3.8.egg-info
+[2.742s] running install_scripts
+[2.753s] Installing detect_ball script to /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/ball_tracker
+[2.754s] Installing detect_ball_3d script to /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/ball_tracker
+[2.754s] Installing follow_ball script to /home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/ball_tracker
+[2.754s] writing list of installed files to '/home/winter24/gcamp_ros2_ws/build/ball_tracker/install.log'
+[2.881s] Invoked command in '/home/winter24/gcamp_ros2_ws/ball_tracker' returned '0': PYTHONPATH=/home/winter24/gcamp_ros2_ws/build/ball_tracker/prefix_override:/home/winter24/gcamp_ros2_ws/install/ball_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ball_tracker build --build-base /home/winter24/gcamp_ros2_ws/build/ball_tracker/build install --record /home/winter24/gcamp_ros2_ws/build/ball_tracker/install.log --install-scripts $base/lib/ball_tracker --single-version-externally-managed

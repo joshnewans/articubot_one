@@ -7,5 +7,6 @@
 #include "tf2_web_republisher/action/detail/tf_subscription__struct.hpp"
 #include "tf2_web_republisher/action/detail/tf_subscription__builder.hpp"
 #include "tf2_web_republisher/action/detail/tf_subscription__traits.hpp"
+#include "tf2_web_republisher/action/detail/tf_subscription__type_support.hpp"
 
 #endif  // TF2_WEB_REPUBLISHER__ACTION__TF_SUBSCRIPTION_HPP_

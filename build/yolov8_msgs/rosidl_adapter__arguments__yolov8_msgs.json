@@ -1,0 +1,17 @@
+{
+  "package_name": "yolov8_msgs",
+  "non_idl_tuples": [
+    "/home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_msgs:msg/Point2D.msg",
+    "/home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_msgs:msg/Vector2.msg",
+    "/home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_msgs:msg/Pose2D.msg",
+    "/home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_msgs:msg/BoundingBox2D.msg",
+    "/home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_msgs:msg/BoundingBox3D.msg",
+    "/home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_msgs:msg/Mask.msg",
+    "/home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_msgs:msg/KeyPoint2D.msg",
+    "/home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_msgs:msg/KeyPoint2DArray.msg",
+    "/home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_msgs:msg/KeyPoint3D.msg",
+    "/home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_msgs:msg/KeyPoint3DArray.msg",
+    "/home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_msgs:msg/Detection.msg",
+    "/home/winter24/gcamp_ros2_ws/yolov8_ros/yolov8_msgs:msg/DetectionArray.msg"
+  ]
+}

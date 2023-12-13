@@ -1,0 +1,2 @@
+/usr/bin/ar qc libscanmatcher.a CMakeFiles/scanmatcher.dir/eig3.cpp.o CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o CMakeFiles/scanmatcher.dir/smmap.cpp.o
+/usr/bin/ranlib libscanmatcher.a

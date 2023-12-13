@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yolov8_msgs/msg/Pose2D.msg
+// generated code does not contain a copyright notice
+
+#include "yolov8_msgs/msg/Point2D.idl"
+
+module yolov8_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " 2D position in pixel coordinates")
+    struct Pose2D {
+      yolov8_msgs::msg::Point2D position;
+
+      double theta;
+    };
+  };
+};
