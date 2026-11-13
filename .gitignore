@@ -1,0 +1,68 @@
+# ==========================================
+# ROS 2 / Colcon / Ament Workspace Artifacts
+# ==========================================
+build/
+install/
+log/
+COLCON_IGNORE
+AMENT_IGNORE
+
+# ==========================================
+# VS Code & IDE Caches (Prevents >100MB errors)
+# ==========================================
+.vscode/
+*.vc.db
+*.vc.db-shm
+*.vc.db-wal
+.idea/
+CMakeLists.txt.user*
+qtcreator-*
+*.user
+.project
+.cproject
+.settings/
+
+# ==========================================
+# Python & Compiled Artifacts
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+srv/_*.py
+msg/_*.py
+action/_*.py
+
+# ==========================================
+# C / C++ Compiled Binaries & CMake
+# ==========================================
+*.o
+*.so
+*.a
+*.exe
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ==========================================
+# ROS 2 Bags, Point Clouds & Simulation Logs
+# ==========================================
+*.db3
+*.mcap
+*.pcd
+*.bag
+.gazebo/
+
+# ==========================================
+# OS & Temporary Swap Files
+# ==========================================
+*~
+*.swp
+*.swo
+.#*
+\#*#
+.DS_Store
+Thumbs.db
+EOF

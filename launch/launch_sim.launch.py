@@ -19,7 +19,7 @@ def generate_launch_description():
 
     package_name='articubot_one' #<--- CHANGE ME
     world_file = os.path.join(
-        get_package_share_directory(package_name), 'worlds', 'empty.world')
+        get_package_share_directory(package_name), 'worlds', 'obstacles.sdf')
 
     rsp = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
