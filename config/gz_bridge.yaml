@@ -1,4 +1,5 @@
 # ros_gz_bridge mappings for articubot_one + Gazebo Sim
+# Prefer matching gz topic names with a leading '/' (as shown by `gz topic -l`).
 # cmd_vel: TwistStamped (Nav2 Lyrical default) -> gz.msgs.Twist (DiffDrive)
 
 - ros_topic_name: "/clock"

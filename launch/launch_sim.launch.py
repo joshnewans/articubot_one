@@ -17,7 +17,6 @@ def generate_launch_description():
     package_name = 'articubot_one'  # <--- CHANGE ME
     pkg_share = get_package_share_directory(package_name)
     world_file = os.path.join(pkg_share, 'worlds', 'obstacles.sdf')
-    bridge_config = os.path.join(pkg_share, 'config', 'gz_bridge.yaml')
 
     rsp = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(
@@ -41,14 +40,26 @@ def generate_launch_description():
         output='screen',
     )
 
-    # Bridge clock, TwistStamped cmd_vel, odom, tf, scan, joint_states (see config/gz_bridge.yaml)
+    # Explicit CLI bridges are more reliable than config_file when the install
+    # path contains spaces (e.g. "Coding Projects"). Keep config/gz_bridge.yaml
+    # in sync as the canonical mapping list.
+    # Direction: [ = GZ->ROS, ] = ROS->GZ
     bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
-        parameters=[{
-            'config_file': bridge_config,
-            'use_sim_time': True,
-        }],
+        arguments=[
+            '/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
+            '/cmd_vel@geometry_msgs/msg/TwistStamped]gz.msgs.Twist',
+            '/model/my_bot/odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry',
+            '/model/my_bot/tf@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V',
+            '/scan@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan',
+            '/joint_states@sensor_msgs/msg/JointState[gz.msgs.Model',
+        ],
+        remappings=[
+            ('/model/my_bot/odometry', '/odom'),
+            ('/model/my_bot/tf', '/tf'),
+        ],
+        parameters=[{'use_sim_time': True}],
         output='screen',
     )
 
