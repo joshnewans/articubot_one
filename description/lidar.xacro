@@ -28,6 +28,9 @@
     <gazebo reference="laser_frame">
         <sensor name="gpu_lidar" type="gpu_lidar">
             <topic>scan</topic>
+            <!-- Lyrical/Ionic+: frame_id. Harmonic-era: gz_frame_id. Set both. -->
+            <frame_id>laser_frame</frame_id>
+            <gz_frame_id>laser_frame</gz_frame_id>
             <update_rate>10</update_rate>
             <lidar>
                 <scan>
