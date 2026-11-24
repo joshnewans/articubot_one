@@ -13,6 +13,12 @@
       <background>0.699999988 0.699999988 0.699999988 1</background>
       <shadows>true</shadows>
     </scene>
+    <!-- Required for gpu_lidar / camera sensors to publish -->
+    <plugin
+      filename="gz-sim-sensors-system"
+      name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
     <model name='ground_plane'>
       <static>true</static>
       <link name='link'>
